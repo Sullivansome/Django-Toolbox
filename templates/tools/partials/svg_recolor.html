@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('svg-recolor')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><textarea class="min-h-[100px] w-full rounded border p-3 font-mono text-xs" x-model="svg"></textarea><div class="flex gap-2"><input type="text" class="w-28 rounded border px-2 font-mono" x-model="from" placeholder="#ff0000" /><input type="text" class="w-28 rounded border px-2 font-mono" x-model="to" placeholder="#3b82f6" /><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="run()">Replace</button></div><textarea class="min-h-[120px] w-full rounded border bg-muted/30 p-3 font-mono text-xs" x-model="out" readonly></textarea><button type="button" class="text-sm underline" @click="copy()">Copy</button></div>
+</div>

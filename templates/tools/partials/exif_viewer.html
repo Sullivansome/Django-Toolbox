@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('exif-viewer')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="file" accept="image/*" @change="onFile($event)" /><p class="text-sm text-destructive" x-show="err" x-text="err"></p><pre class="max-h-96 overflow-auto rounded bg-muted p-3 text-xs" x-show="info" x-text="JSON.stringify(info, null, 2)"></pre></div>
+</div>

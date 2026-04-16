@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('timezone-meeting-planner')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><label class="text-sm">Hour (local) <input type="number" min="0" max="23" class="ml-2 w-20 rounded border px-2" x-model.number="hour" /></label><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="calc()">Show times</button><table class="w-full text-sm" x-show="rows.length"><thead><tr><th class="text-left">Zone</th><th class="text-left">Local time</th></tr></thead><tbody><template x-for="row in rows" :key="row.zone"><tr class="border-t border-border"><td x-text="row.zone"></td><td x-text="row.time"></td></tr></template></tbody></table></div>
+</div>

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load dict_utils %}
+{% block title %}{{ ui.home.categoriesTitle }} | Tool Center{% endblock %}
+{% block content %}
+  <div class="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-10">
+    <div>
+      <h1 class="text-2xl font-semibold text-foreground">{{ ui.home.categoriesTitle }}</h1>
+      <p class="text-sm text-muted-foreground">{{ ui.home.categoriesSubtitle }}</p>
+    </div>
+    <div class="space-y-8">
+      {% for group in grouped_tools %}
+        <div class="space-y-3">
+          <h2 class="text-lg font-semibold text-foreground">{{ ui.categories|get_item:group.category }}</h2>
+          <div class="grid gap-4 md:grid-cols-2">
+            {% for tool in group.tools %}
+              {% with tslug=tool.slug tinfo=ui.tools|get_item:tool.slug %}
+                <a
+                  href="/{{ locale }}/tools/{{ tslug }}/"
+                  class="group rounded-xl border border-border bg-card p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-foreground/30"
+                >
+                  <div class="flex items-center justify-between gap-2">
+                    <div class="space-y-1">
+                      <div class="text-sm font-semibold text-foreground">
+                        {% if tinfo %}{{ tinfo.name }}{% else %}{{ tslug }}{% endif %}
+                      </div>
+                      <p class="text-sm text-muted-foreground">
+                        {% if tinfo %}{{ tinfo.description }}{% endif %}
+                      </p>
+                    </div>
+                    <span class="rounded-full bg-muted px-3 py-1 text-xs font-semibold text-foreground/80">
+                      {{ ui.categories|get_item:tool.category }}
+                    </span>
+                  </div>
+                </a>
+              {% endwith %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

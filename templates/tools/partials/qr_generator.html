@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('qr-generator')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="text" class="w-full rounded-lg border border-border px-3 py-2" x-model="text" @input.debounce.300ms="render()" /><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="render()">Render</button><p class="text-sm text-destructive" x-show="err" x-text="err"></p><div class="flex justify-center rounded-lg border border-dashed border-border p-4" :id="elId"></div></div>
+</div>

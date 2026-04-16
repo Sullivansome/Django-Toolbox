@@ -1,0 +1,920 @@
+{
+  "layout": {
+    "brand": "工具中心",
+    "navTools": "工具",
+    "navHome": "首页",
+    "themeToggle": "主题",
+    "language": "语言",
+    "searchLabel": "搜索工具",
+    "searchPlaceholder": "搜索工具或关键字…",
+    "searchShortcut": "Cmd/Ctrl + K",
+    "searchNoResults": "未找到匹配的工具。"
+  },
+  "home": {
+    "title": "面向浏览器的开发者与创作者工具集",
+    "subtitle": "快速且重视隐私的工具，一切计算都在浏览器本地完成，无需上传。",
+    "cta": "浏览全部工具",
+    "featured": "精选工具",
+    "localOnly": "所有处理均在浏览器本地完成，不会上传到服务器。",
+    "categoriesTitle": "按类别浏览",
+    "categoriesSubtitle": "围绕常见场景挑选工具，保持全程本地运行。"
+  },
+  "tools": {
+    "base64": {
+      "name": "Base64 转换器",
+      "description": "在浏览器本地完成文本的 Base64 编码/解码。"
+    },
+    "json-formatter": {
+      "name": "JSON 格式化与校验",
+      "description": "在浏览器中验证并美化 JSON。"
+    },
+    "regex-playground": {
+      "name": "Regex 沙箱",
+      "description": "本地测试 JS 正则并实时高亮匹配。"
+    },
+    "case-converter": {
+      "name": "大小写转换",
+      "description": "在大写、小写、驼峰、蛇形命名间转换。"
+    },
+    "diff-checker": {
+      "name": "文本对比",
+      "description": "对比两段文本差异并高亮显示。"
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum 生成器",
+      "description": "即时生成占位文本。"
+    },
+    "markdown-preview": {
+      "name": "Markdown 预览",
+      "description": "支持 GitHub 风格的 Markdown 预览。"
+    },
+    "password-generator": {
+      "name": "随机密码生成器",
+      "description": "本地生成自定义长度和符号的强密码。"
+    },
+    "uuid-generator": {
+      "name": "UUID 生成器",
+      "description": "使用 Web Crypto 本地生成 UUID v4。"
+    },
+    "hash-generator": {
+      "name": "哈希生成器",
+      "description": "在浏览器本地计算 MD5、SHA-256、SHA-512。"
+    },
+    "jwt-inspector": {
+      "name": "JWT 解码器",
+      "description": "本地解码 Header/Payload，并提示是否过期。"
+    },
+    "qr-generator": {
+      "name": "二维码生成器",
+      "description": "在本地生成文本或链接的二维码。"
+    },
+    "exif-viewer": {
+      "name": "EXIF 查看器",
+      "description": "查看照片的元数据（拍摄时间、相机型号）。"
+    },
+    "color-converter": {
+      "name": "颜色转换",
+      "description": "在 HEX 与 RGB 之间快速转换。"
+    },
+    "color-contrast-checker": {
+      "name": "颜色对比度检测",
+      "description": "按照 WCAG 标准计算对比度并预览。"
+    },
+    "image-to-pdf": {
+      "name": "图片转 PDF",
+      "description": "调整顺序后将多张图片导出为 PDF。"
+    },
+    "list-dedup-sort": {
+      "name": "列表去重/排序",
+      "description": "去除重复值并按需要排序。"
+    },
+    "csv-json-converter": {
+      "name": "CSV ↔ JSON 转换",
+      "description": "利用 PapaParse 在 CSV 与 JSON 间转换。"
+    },
+    "random-picker": {
+      "name": "随机抽奖/分组",
+      "description": "抽取中奖名单或随机分组。"
+    },
+    "image-compressor": {
+      "name": "图片压缩",
+      "description": "使用 Canvas/Web Worker 本地压缩图片。"
+    },
+    "image-converter": {
+      "name": "图片格式转换",
+      "description": "在 JPG/PNG/WebP 之间快速互转。"
+    },
+    "social-mockup": {
+      "name": "社媒截图生成",
+      "description": "生成 Tweet/Instagram 风格卡片并截图下载。"
+    },
+    "palette-generator": {
+      "name": "调色板/渐变生成器",
+      "description": "一键生成随机色板与 CSS 渐变。"
+    },
+    "svg-recolor": {
+      "name": "SVG 上色器",
+      "description": "上传 SVG 图标并本地更改填充/描边颜色。"
+    },
+    "emoji-cleaner": {
+      "name": "Emoji 清理/提取",
+      "description": "快速删除或提取文本中的表情。"
+    },
+    "social-formatter": {
+      "name": "小红书/Instagram 排版",
+      "description": "自动加空行、项目符号与 Emoji。"
+    },
+    "advanced-word-count": {
+      "name": "进阶字数统计",
+      "description": "实时统计字符、句子与段落。"
+    },
+    "date-calculator": {
+      "name": "日期计算器",
+      "description": "计算两日期之间的天数、周数、月数。"
+    },
+    "timezone-meeting-planner": {
+      "name": "时区会议规划",
+      "description": "设定基准时间后，快速查看各地对应时间。"
+    },
+    "finance-calculator": {
+      "name": "复利/房贷规划",
+      "description": "绘制存款/收益曲线，掌握复利增长。"
+    },
+    "bmi-calculator": {
+      "name": "BMI 身体指数",
+      "description": "输入身高体重并获取健康建议。"
+    },
+    "unit-converter": {
+      "name": "单位/尺码换算",
+      "description": "长度、重量以及鞋码、衣服尺码对照表。"
+    },
+    "statistics-summary": {
+      "name": "统计汇总",
+      "description": "粘贴数字即可计算均值、中位数、方差与趋势。"
+    },
+    "international-temperature-converter": {
+      "name": "国际温度单位转换",
+      "description": "支持摄氏、华氏、开尔文、兰金等国际温标互换。"
+    },
+    "family-relation-calculator": {
+      "name": "亲戚关系计算器",
+      "description": "选择自己的身份与称呼，一键推导亲戚关系。"
+    },
+    "lunar-new-year-essentials": {
+      "name": "过年必备神器",
+      "description": "集合倒计时、吉祥话、采买清单等春节小工具。"
+    },
+    "finance-number-case-converter": {
+      "name": "财务数字大小写转换",
+      "description": "将金额数字转换为中文大写金额，适配票据合同。"
+    },
+    "finance-essentials": {
+      "name": "财务必备工具",
+      "description": "常用报销、分摊、理财计算一站式集合。"
+    },
+    "base-converter": {
+      "name": "进制转换",
+      "description": "在二、八、十、十六进制之间自由互换。"
+    },
+    "computer-base-converter": {
+      "name": "计算机进制转换",
+      "description": "面向开发者的进制工具，附带位数与补零提示。"
+    },
+    "cron-explainer": {
+      "name": "Cron 解析器",
+      "description": "逐字段解释 5 段 cron 表达式并预览下次执行。"
+    },
+    "video-to-gif": {
+      "name": "视频转 GIF（WASM）",
+      "description": "使用 ffmpeg.wasm 在浏览器内裁剪并导出 GIF。"
+    },
+    "ocr": {
+      "name": "本地 OCR（Tesseract.js）",
+      "description": "离线识别英文或中文图片文字。"
+    }
+  },
+  "categories": {
+    "dev": "开发",
+    "text": "文本",
+    "security": "安全",
+    "media": "多媒体",
+    "time": "时间",
+    "math": "数学",
+    "productivity": "办公/效率",
+    "design": "设计/自媒体",
+    "social": "社交内容",
+    "life": "生活/计算",
+    "wasm": "WebAssembly",
+    "conversion": "数据换算"
+  },
+  "tags": {
+    "encode": "编码",
+    "decode": "解码",
+    "count": "统计",
+    "format": "格式化",
+    "compare": "对比",
+    "generate": "生成",
+    "markdown": "Markdown",
+    "preview": "预览",
+    "random": "随机",
+    "password": "密码",
+    "hash": "哈希",
+    "md5": "md5",
+    "sha": "sha",
+    "qr": "二维码",
+    "exif": "EXIF",
+    "metadata": "元数据",
+    "color": "颜色",
+    "convert": "转换",
+    "json": "JSON",
+    "validate": "验证",
+    "uuid": "UUID",
+    "pdf": "PDF",
+    "text": "文本",
+    "list": "列表",
+    "sort": "排序",
+    "csv": "CSV",
+    "team": "分组",
+    "image": "图片",
+    "compress": "压缩",
+    "svg": "SVG",
+    "social": "社媒",
+    "style": "花样字体",
+    "emoji": "Emoji",
+    "clean": "清理",
+    "date": "日期",
+    "time": "时间",
+    "finance": "理财",
+    "chart": "图表",
+    "health": "健康",
+    "video": "视频",
+    "gif": "GIF",
+    "ocr": "OCR",
+    "regex": "正则",
+    "test": "测试",
+    "jwt": "JWT",
+    "token": "令牌",
+    "contrast": "对比度",
+    "wcag": "WCAG",
+    "timezone": "时区",
+    "schedule": "调度",
+    "stats": "统计",
+    "analysis": "分析"
+  },
+  "toolShell": {
+    "input": "输入",
+    "output": "输出",
+    "clear": "清空",
+    "copy": "复制",
+    "encoded": "编码结果",
+    "decoded": "解码结果",
+    "error": "出现错误，请检查输入内容。"
+  },
+  "regexPlayground": {
+    "patternLabel": "正则表达式",
+    "patternPlaceholder": "例如 (hello)+",
+    "flagsLabel": "修饰符",
+    "flagsHint": "切换常见的 JavaScript 正则标志。",
+    "sampleLabel": "测试文本",
+    "samplePlaceholder": "粘贴需要匹配的文本…",
+    "matchesLabel": "匹配结果",
+    "noMatches": "暂未匹配成功，请输入文本或调整表达式。",
+    "helper": "完全在浏览器本地计算，不上传任何内容。",
+    "error": "无法编译该表达式，请检查语法。",
+    "indexLabel": "起始位置",
+    "groupLabel": "分组",
+    "highlightLabel": "高亮区",
+    "flagDescriptions": {
+      "g": "全局",
+      "i": "忽略大小写",
+      "m": "多行",
+      "s": "点号匹配换行",
+      "u": "Unicode",
+      "y": "粘滞"
+    }
+  },
+  "jwtInspector": {
+    "inputLabel": "JWT 令牌",
+    "placeholder": "粘贴 JWT（header.payload.signature）…",
+    "helper": "仅在本地解码，不校验签名。",
+    "headerTitle": "Header",
+    "payloadTitle": "Payload",
+    "signatureTitle": "签名",
+    "claimsTitle": "常见声明",
+    "copyJson": "复制 JSON",
+    "copied": "已复制",
+    "invalidStructure": "令牌至少需要两个点号分隔的部分。",
+    "decodeError": "无法解码该令牌，请检查 Base64 内容。",
+    "statusActive": "有效",
+    "statusExpired": "已过期",
+    "expiresIn": "{duration} 后过期",
+    "expiredAgo": "已于 {duration} 前过期",
+    "noExpiry": "未提供 exp 字段。",
+    "noClaims": "未检测到常见声明。",
+    "signatureMissing": "缺少签名片段，此令牌未加密。",
+    "signaturePresent": "已包含签名，本工具不验证真伪。",
+    "issuer": "签发方 (iss)",
+    "subject": "主体 (sub)",
+    "audience": "受众 (aud)",
+    "expires": "过期时间 (exp)",
+    "issuedAt": "签发时间 (iat)",
+    "validFrom": "生效时间 (nbf)",
+    "durationUnits": {
+      "days": "天",
+      "hours": "小时",
+      "minutes": "分钟"
+    }
+  },
+  "colorContrast": {
+    "textColor": "文字颜色",
+    "backgroundColor": "背景颜色",
+    "swap": "交换颜色",
+    "ratioLabel": "对比度",
+    "aaNormal": "AA（正文）",
+    "aaLarge": "AA（大字号）",
+    "aaa": "AAA（正文）",
+    "pass": "通过",
+    "fail": "未达标",
+    "previewLabel": "预览",
+    "helper": "WCAG 2.1 要求正文 4.5:1、大标题 3:1。"
+  },
+  "timezonePlanner": {
+    "title": "跨时区会议规划",
+    "subtitle": "设定基准时间，预览各时区的对应时间。",
+    "meetingTime": "会议时间",
+    "baseTimezone": "基准时区",
+    "timezoneHint": "时间以所选基准时区显示",
+    "participants": "参与者",
+    "addTimezone": "添加时区",
+    "removeTimezone": "移除",
+    "emptyState": "添加参与者时区以对比工作时间。",
+    "timelineLabel": "时间轴",
+    "workingHours": "工作",
+    "offHours": "非工作时间",
+    "base": "基准",
+    "dstActive": "夏令时生效中",
+    "shareLink": "分享链接",
+    "copySummary": "复制摘要",
+    "copied": "已复制！",
+    "linkCopied": "链接已复制！",
+    "searchPlaceholder": "搜索城市...",
+    "noResults": "未找到城市，请尝试其他拼写。",
+    "favorites": "收藏",
+    "popular": "热门",
+    "workingHoursStart": "开始",
+    "workingHoursEnd": "结束",
+    "workingHoursTo": "至",
+    "overlapFound": "重叠",
+    "dstTitle": "夏令时提醒",
+    "dstNextTransition": "下次切换",
+    "dstBeforeTransition": "切换前",
+    "dstAfterTransition": "切换后",
+    "dstTip": "建议在夏令时切换前与对方确认，以免混淆。",
+    "dstShowDetails": "查看会议时间影响",
+    "dstHideDetails": "隐藏详情",
+    "xinjiangTooltip": "新疆官方使用北京时间（GMT+8），但当地人常用乌鲁木齐时间（GMT+6）。本工具使用 GMT+6。"
+  },
+  "cronExplainer": {
+    "expressionLabel": "Cron 表达式",
+    "placeholder": "0 9 * * 1-5",
+    "helper": "格式：分钟 小时 日期 月份 星期（共 5 字段）。",
+    "timezoneLabel": "时区",
+    "parseError": "无法解析该 cron 表达式。",
+    "fields": {
+      "minute": "分钟",
+      "hour": "小时",
+      "dayOfMonth": "日期",
+      "month": "月份",
+      "dayOfWeek": "星期"
+    },
+    "unitNames": {
+      "minute": "分钟",
+      "hour": "小时",
+      "dayOfMonth": "日期",
+      "month": "月份",
+      "dayOfWeek": "星期"
+    },
+    "months": {
+      "1": "一月",
+      "2": "二月",
+      "3": "三月",
+      "4": "四月",
+      "5": "五月",
+      "6": "六月",
+      "7": "七月",
+      "8": "八月",
+      "9": "九月",
+      "10": "十月",
+      "11": "十一月",
+      "12": "十二月"
+    },
+    "weekdays": {
+      "0": "周日",
+      "1": "周一",
+      "2": "周二",
+      "3": "周三",
+      "4": "周四",
+      "5": "周五",
+      "6": "周六"
+    },
+    "descriptions": {
+      "any": "任意 {unit}",
+      "value": "{value}",
+      "list": "包含：{items}",
+      "range": "{start}-{end}",
+      "rangeStep": "{start}-{end}，每 {step} 个 {unit}",
+      "separator": "，"
+    },
+    "nextRuns": "最近执行时间",
+    "copySchedule": "复制计划",
+    "copied": "已复制"
+  },
+  "statisticsSummary": {
+    "inputLabel": "数据列表",
+    "placeholder": "粘贴以逗号或换行分隔的数字…",
+    "invalidCount": "忽略了 {count} 个无法解析的值。",
+    "metrics": {
+      "count": "数量",
+      "sum": "总和",
+      "mean": "均值",
+      "median": "中位数",
+      "min": "最小值",
+      "max": "最大值",
+      "variance": "方差",
+      "stddev": "标准差"
+    },
+    "empty": "至少输入两个数字才能查看完整统计。",
+    "chartLabel": "趋势预览",
+    "copySummary": "复制摘要",
+    "copied": "已复制"
+  },
+  "temperatureConverter": {
+    "valueLabel": "数值",
+    "fromLabel": "原单位",
+    "toLabel": "目标单位",
+    "swapLabel": "互换单位",
+    "resetLabel": "重置",
+    "invalid": "请输入需要换算的数字。",
+    "allConversions": "全部结果",
+    "units": {
+      "celsius": "摄氏度 (°C)",
+      "fahrenheit": "华氏度 (°F)",
+      "kelvin": "开尔文 (K)",
+      "rankine": "兰金度 (°R)"
+    }
+  },
+  "familyRelation": {
+    "stepPlaceholder": "选择下一步关系",
+    "addStep": "添加",
+    "undo": "撤销",
+    "clear": "清空",
+    "stepsLabel": "当前路径",
+    "empty": "先添加一条关系路径。",
+    "resultLabel": "称呼",
+    "unknown": "暂未收录该组合。",
+    "selfLabel": "我",
+    "resultHint": "依据以上路径推断",
+    "steps": {
+      "father": "爸爸",
+      "mother": "妈妈",
+      "olderBrother": "哥哥",
+      "youngerBrother": "弟弟",
+      "olderSister": "姐姐",
+      "youngerSister": "妹妹",
+      "son": "儿子",
+      "daughter": "女儿",
+      "husband": "老公",
+      "wife": "老婆"
+    },
+    "results": {
+      "father": "爸爸",
+      "mother": "妈妈",
+      "paternalGrandfather": "爷爷",
+      "paternalGrandmother": "奶奶",
+      "maternalGrandfather": "外公",
+      "maternalGrandmother": "外婆",
+      "paternalUncle": "叔叔/伯伯",
+      "paternalAunt": "姑姑",
+      "maternalUncle": "舅舅",
+      "maternalAunt": "姨妈",
+      "elderBrother": "哥哥",
+      "youngerBrother": "弟弟",
+      "elderSister": "姐姐",
+      "youngerSister": "妹妹",
+      "son": "儿子",
+      "daughter": "女儿",
+      "grandson": "孙子",
+      "granddaughter": "孙女",
+      "nephew": "侄子/外甥",
+      "niece": "侄女/外甥女",
+      "fatherInLaw": "公公/岳父",
+      "motherInLaw": "婆婆/岳母",
+      "brotherInLaw": "姐夫/妹夫/连襟",
+      "sisterInLaw": "嫂子/弟媳/妯娌",
+      "husband": "老公",
+      "wife": "老婆",
+      "daughterInLaw": "儿媳",
+      "sonInLaw": "女婿",
+      "cousin": "堂表兄弟姐妹"
+    }
+  },
+  "lunarNewYear": {
+    "countdownTitle": "春节倒计时",
+    "countdown": "距离春节还有 {count} 天",
+    "today": "今天就是大年初一！",
+    "nextDateLabel": "下一个春节",
+    "greetingTitle": "吉祥话生成器",
+    "drawGreeting": "换一句",
+    "greetings": [
+      "新年快乐，万事如意！",
+      "新春大吉，身体健康！",
+      "阖家团圆，幸福安康。",
+      "财源广进，红包拿来！",
+      "心想事成，好运整年。"
+    ]
+  },
+  "financeNumberCase": {
+    "amountLabel": "金额（人民币）",
+    "placeholder": "例如 1234.56",
+    "convert": "转换为中文大写",
+    "copy": "复制结果",
+    "copied": "已复制",
+    "resultLabel": "中文大写金额",
+    "invalid": "请输入 0-999,999,999,999.99 之间的数字。"
+  },
+  "financeToolkit": {
+    "tax": {
+      "title": "发票税额速算",
+      "amount": "未含税金额",
+      "rate": "税率（%）",
+      "taxDue": "税额",
+      "total": "含税总计"
+    },
+    "split": {
+      "title": "报销 / 津贴分摊",
+      "total": "总金额",
+      "people": "人数",
+      "days": "天数",
+      "perPerson": "人均金额",
+      "perDay": "每天金额",
+      "perPersonPerDay": "人均每天",
+      "note": "结果保留两位小数。"
+    }
+  },
+  "baseConverter": {
+    "inputLabel": "输入值",
+    "baseLabel": "原始进制",
+    "resultsLabel": "换算结果",
+    "invalid": "输入与进制不匹配。",
+    "bases": {
+      "binary": "二进制（2）",
+      "octal": "八进制（8）",
+      "decimal": "十进制（10）",
+      "hex": "十六进制（16）"
+    }
+  },
+  "computerBaseConverter": {
+    "inputLabel": "输入值",
+    "baseLabel": "原始进制",
+    "bitWidthLabel": "目标位宽",
+    "bitLengthLabel": "有效位数",
+    "approxBytesLabel": "约合字节",
+    "paddedBinaryLabel": "补齐后的二进制",
+    "paddedHexLabel": "补齐后的十六进制",
+    "outputsTitle": "常用进制",
+    "invalid": "输入与进制不匹配。",
+    "bases": {
+      "binary": "二进制",
+      "octal": "八进制",
+      "decimal": "十进制",
+      "hex": "十六进制"
+    }
+  },
+  "base64": {
+    "encode": "编码",
+    "decode": "解码",
+    "placeholder": "在此粘贴文本..."
+  },
+  "caseConverter": {
+    "input": "文本",
+    "output": "转换结果",
+    "upper": "大写",
+    "lower": "小写",
+    "camel": "驼峰",
+    "snake": "蛇形",
+    "kebab": "短横线",
+    "title": "标题格式",
+    "copy": "复制",
+    "reset": "重置",
+    "placeholder": "输入需要转换的文本..."
+  },
+  "diffChecker": {
+    "left": "原文本",
+    "right": "新文本",
+    "summary": "摘要",
+    "added": "新增",
+    "removed": "删除",
+    "button": "对比",
+    "noDiff": "未发现差异",
+    "placeholderLeft": "粘贴原文本...",
+    "placeholderRight": "粘贴修改后的文本..."
+  },
+  "loremIpsum": {
+    "paragraphs": "段落数",
+    "words": "每段字数",
+    "generate": "生成",
+    "copy": "复制",
+    "placeholder": "生成的文本将显示在此..."
+  },
+  "markdown": {
+    "input": "Markdown",
+    "preview": "预览",
+    "placeholder": "在此编写 Markdown..."
+  },
+  "passwordGenerator": {
+    "length": "长度",
+    "uppercase": "大写字母",
+    "lowercase": "小写字母",
+    "numbers": "数字",
+    "symbols": "符号",
+    "generate": "生成",
+    "copy": "复制",
+    "password": "密码",
+    "placeholder": "生成的密码将显示在此..."
+  },
+  "hashGenerator": {
+    "input": "文本",
+    "algo": "算法",
+    "md5": "MD5",
+    "sha256": "SHA-256",
+    "sha512": "SHA-512",
+    "hash": "哈希值",
+    "compute": "计算",
+    "copy": "复制",
+    "placeholder": "结果将在此显示..."
+  },
+  "qrGenerator": {
+    "input": "文本或链接",
+    "size": "尺寸",
+    "download": "下载 PNG",
+    "placeholder": "输入需要生成二维码的内容..."
+  },
+  "exifViewer": {
+    "upload": "上传图片",
+    "camera": "相机",
+    "model": "型号",
+    "datetime": "拍摄时间",
+    "noData": "未找到 EXIF 数据。",
+    "error": "读取 EXIF 数据失败。",
+    "instruction": "上传照片查看其元数据。"
+  },
+  "colorConverter": {
+    "hex": "Hex",
+    "rgb": "RGB",
+    "copy": "复制",
+    "placeholderHex": "#3366ff",
+    "placeholderRgb": "51, 102, 255",
+    "invalid": "颜色值无效。"
+  },
+  "jsonFormatter": {
+    "input": "JSON 输入",
+    "output": "格式化结果",
+    "format": "格式化",
+    "validate": "校验",
+    "clear": "清空",
+    "copy": "复制",
+    "placeholder": "在此粘贴 JSON...",
+    "error": "JSON 无效，请检查逗号、引号或括号。",
+    "valid": "JSON 格式正确"
+  },
+  "uuidGenerator": {
+    "count": "生成数量",
+    "countHelper": "每次生成 1 到 20 个 UUID。",
+    "generate": "生成",
+    "copy": "复制",
+    "error": "请输入 1 到 20 之间的数字。",
+    "placeholder": "生成的 UUID 将显示在此..."
+  },
+  "imageToPdf": {
+    "upload": "上传图片",
+    "helper": "拖拽 PNG/JPG 或点击选择",
+    "clear": "清空列表",
+    "generate": "生成 PDF",
+    "empty": "请先添加至少一张图片。",
+    "reorder": "可拖拽或用按钮调整顺序。",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "remove": "移除",
+    "processing": "正在处理...",
+    "success": "PDF 已生成并开始下载。",
+    "error": "生成 PDF 失败，请重试。"
+  },
+  "listTool": {
+    "input": "列表",
+    "placeholder": "一行一个邮箱或数据...",
+    "result": "去重结果",
+    "sortLabel": "排序",
+    "sortAsc": "A → Z",
+    "sortDesc": "Z → A",
+    "original": "原顺序",
+    "caseSensitive": "区分大小写",
+    "copy": "复制",
+    "clear": "清空"
+  },
+  "csvJson": {
+    "csvInput": "CSV",
+    "jsonOutput": "JSON",
+    "convertToJson": "转为 JSON",
+    "convertToCsv": "转为 CSV",
+    "copyCsv": "复制 CSV",
+    "copyJson": "复制 JSON",
+    "placeholder": "粘贴需要转换的数据...",
+    "error": "请输入合法的 CSV 或 JSON。"
+  },
+  "randomPicker": {
+    "input": "名单",
+    "placeholder": "每行一个人名...",
+    "mode": "模式",
+    "drawMode": "随机抽奖",
+    "groupMode": "随机分组",
+    "winnersLabel": "中奖人数",
+    "groupSizeLabel": "每组人数",
+    "run": "开始",
+    "winnersTitle": "中奖名单",
+    "groupsTitle": "分组结果",
+    "groupLabel": "第 {index} 组",
+    "copy": "复制",
+    "clear": "清空",
+    "error": "请至少输入一个名字。"
+  },
+  "imageCompressor": {
+    "upload": "上传图片",
+    "helper": "拖拽或点击选择照片",
+    "quality": "质量",
+    "compress": "开始压缩",
+    "original": "原图",
+    "compressed": "压缩后",
+    "download": "下载",
+    "ratio": "压缩后为原图的 {ratio}",
+    "processing": "处理中...",
+    "error": "压缩失败。"
+  },
+  "imageConverter": {
+    "upload": "上传图片",
+    "helper": "拖拽或点击选择文件",
+    "formatLabel": "目标格式",
+    "convert": "开始转换",
+    "download": "下载",
+    "processing": "正在转换...",
+    "error": "转换失败。",
+    "inputLabel": "输入",
+    "outputLabel": "输出"
+  },
+  "socialMockup": {
+    "platform": "平台",
+    "name": "昵称",
+    "handle": "账号",
+    "content": "内容",
+    "time": "时间",
+    "download": "下载 PNG",
+    "helper": "填写右侧内容后即可导出截图。",
+    "twitter": "Twitter/X",
+    "instagram": "Instagram"
+  },
+  "paletteGenerator": {
+    "palette": "调色板",
+    "gradient": "渐变预览",
+    "generate": "重新生成",
+    "copy": "复制色值",
+    "copied": "已复制"
+  },
+  "svgRecolor": {
+    "upload": "上传 SVG",
+    "helper": "建议上传黑色图标",
+    "colorLabel": "目标颜色",
+    "apply": "应用",
+    "download": "下载 SVG",
+    "preview": "预览",
+    "error": "无法为该 SVG 上色。"
+  },
+  "emojiCleaner": {
+    "input": "文本",
+    "placeholder": "粘贴包含 Emoji 的内容...",
+    "cleaned": "去除 Emoji 的文本",
+    "emojis": "提取的 Emoji",
+    "copyClean": "复制文本",
+    "copyEmoji": "复制 Emoji"
+  },
+  "socialFormatter": {
+    "input": "文案",
+    "placeholder": "粘贴凌乱的内容...",
+    "spacing": "自动加空行",
+    "bullets": "添加项目符号",
+    "emoji": "前缀 Emoji",
+    "emojiPlaceholder": "如 ✨",
+    "format": "格式化",
+    "output": "排版结果",
+    "copy": "复制结果"
+  },
+  "advancedWordCount": {
+    "input": "文本",
+    "placeholder": "粘贴文章、论文或文案...",
+    "charsWithSpaces": "字符（含空格）",
+    "charsWithoutSpaces": "字符（不含空格）",
+    "words": "单词",
+    "sentences": "句子",
+    "paragraphs": "段落"
+  },
+  "dateCalculator": {
+    "start": "开始日期",
+    "end": "结束日期",
+    "days": "天数",
+    "weeks": "周数",
+    "months": "月数",
+    "future": "距离目标还有 {days} 天",
+    "past": "距离目标已过去 {days} 天"
+  },
+  "financeCalculator": {
+    "principal": "初始金额",
+    "monthly": "每月投入",
+    "rate": "年化收益率 (%)",
+    "years": "年限",
+    "totalContributions": "总投入",
+    "totalInterest": "预计收益",
+    "chartTitle": "资产增长曲线"
+  },
+  "bmiCalculator": {
+    "height": "身高 (cm)",
+    "weight": "体重 (kg)",
+    "result": "BMI",
+    "category": "状态",
+    "tips": {
+      "underweight": "偏瘦",
+      "normal": "健康",
+      "overweight": "过重",
+      "obese": "肥胖"
+    }
+  },
+  "unitConverter": {
+    "category": "类别",
+    "categories": {
+      "length": "长度",
+      "weight": "重量",
+      "shoe": "鞋码",
+      "clothing": "服装"
+    },
+    "value": "数值",
+    "unit": "单位",
+    "results": "换算结果",
+    "lengthUnits": {
+      "cm": "厘米",
+      "m": "米",
+      "inch": "英寸",
+      "foot": "英尺"
+    },
+    "weightUnits": {
+      "kg": "千克",
+      "g": "克",
+      "lb": "磅"
+    },
+    "shoe": {
+      "title": "鞋码（EU/US/CN）",
+      "eu": "欧码",
+      "us": "美码",
+      "cn": "国码"
+    },
+    "clothing": {
+      "title": "服装尺码对照",
+      "international": "国际",
+      "us": "美码",
+      "eu": "欧码",
+      "cn": "国码"
+    }
+  },
+  "videoToGif": {
+    "upload": "上传视频",
+    "helper": "拖拽 MP4/WebM（纯浏览器处理）",
+    "start": "开始秒数",
+    "duration": "持续秒数",
+    "width": "宽度 (px)",
+    "convert": "转换",
+    "download": "下载 GIF",
+    "processing": "正在使用 ffmpeg.wasm 转换...",
+    "error": "转换失败，请缩短片段后重试。"
+  },
+  "ocr": {
+    "upload": "上传图片",
+    "helper": "拖拽截图或扫描文件",
+    "language": "语言",
+    "languages": {
+      "eng": "英文",
+      "chi_sim": "简体中文"
+    },
+    "run": "开始识别",
+    "result": "识别结果将显示在此...",
+    "copy": "复制文本",
+    "processing": "正在识别文字...",
+    "error": "识别失败。",
+    "preview": "图片预览"
+  }
+}

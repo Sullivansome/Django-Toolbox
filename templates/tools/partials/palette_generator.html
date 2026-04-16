@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('palette-generator')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="regen()">Generate</button><div class="flex flex-wrap gap-2"><template x-for="(c,i) in colors" :key="i"><div class="h-16 w-24 rounded-lg border shadow" :style="`background:${c}`"></div></template></div></div>
+</div>

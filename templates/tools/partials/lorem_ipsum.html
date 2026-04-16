@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('lorem-ipsum')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><label class="text-sm">Paragraphs <input type="number" min="1" max="20" class="ml-2 w-20 rounded border px-2 py-1" x-model.number="count" /></label><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="gen()">Generate</button><textarea class="min-h-[200px] w-full rounded-lg border border-border bg-muted/30 p-3 text-sm" x-model="out" readonly></textarea><button type="button" class="text-sm underline" @click="copy()">Copy</button></div>
+</div>

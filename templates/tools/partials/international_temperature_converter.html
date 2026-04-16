@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('international-temperature-converter')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><label class="text-sm">°C <input type="number" class="ml-2 w-32 rounded border px-2" x-model.number="c" @input="syncFromC()" /></label><label class="text-sm">°F <input type="number" class="ml-2 w-32 rounded border px-2" x-model.number="f" @input="syncFromF()" /></label></div>
+</div>

@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('family-relation-calculator')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><p class="text-sm text-muted-foreground" x-text="note"></p><div class="flex gap-4"><label class="text-sm">A <input type="number" class="ml-2 w-20 rounded border px-2" x-model.number="a" /></label><label class="text-sm">B <input type="number" class="ml-2 w-20 rounded border px-2" x-model.number="b" /></label><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="calc()">Compare</button></div><p class="text-sm" x-show="result" x-text="result"></p></div>
+</div>

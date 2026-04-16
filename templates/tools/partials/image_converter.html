@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('image-converter')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="file" accept="image/*" @change="onFile($event)" /><select class="rounded border px-2 py-1 text-sm" x-model="format"><option value="image/png">PNG</option><option value="image/jpeg">JPEG</option><option value="image/webp">WebP</option></select><p class="text-sm text-destructive" x-show="err" x-text="err"></p><img x-show="dataUrl" :src="dataUrl" class="max-h-64 rounded border" alt="out" /><button type="button" class="text-sm underline" @click="copy()" x-show="dataUrl">Copy data URL</button></div>
+</div>

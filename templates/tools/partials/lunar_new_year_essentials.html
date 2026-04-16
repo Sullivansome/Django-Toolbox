@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('lunar-new-year-essentials')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><table class="w-full text-sm"><thead><tr><th class="text-left">Year</th><th class="text-left">Lunar New Year (approx)</th></tr></thead><tbody><template x-for="row in years" :key="row.y"><tr class="border-t border-border"><td x-text="row.y"></td><td x-text="row.d"></td></tr></template></tbody></table></div>
+</div>

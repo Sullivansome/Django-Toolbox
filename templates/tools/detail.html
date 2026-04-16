@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ labels.name }} | Tool Center{% endblock %}
+{% block meta_description %}{{ labels.description }}{% endblock %}
+{% block content %}
+  <article class="mx-auto max-w-6xl px-6 py-10" data-tool-slug="{{ slug }}">
+    <header class="mb-8 space-y-2">
+      <h1 class="text-3xl font-semibold leading-tight tracking-tight text-foreground">{{ labels.name }}</h1>
+      <p class="text-lg text-muted-foreground">{{ labels.description }}</p>
+    </header>
+    {% include tool_partial %}
+  </article>
+{% endblock %}
+{% block extra_js %}
+  <script src="{% static 'js/tools-bundle.js' %}"></script>
+{% endblock %}

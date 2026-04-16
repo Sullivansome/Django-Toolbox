@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('random-picker')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><textarea class="min-h-[120px] w-full rounded border p-3 font-mono text-sm" x-model="lines"></textarea><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="pick()">Pick</button><p class="text-xl font-semibold" x-show="result" x-text="result"></p></div>
+</div>

@@ -1,0 +1,920 @@
+{
+  "layout": {
+    "brand": "Tool Center",
+    "navTools": "Tools",
+    "navHome": "Home",
+    "themeToggle": "Theme",
+    "language": "Language",
+    "searchLabel": "Search tools",
+    "searchPlaceholder": "Search tools or keywords…",
+    "searchShortcut": "Cmd/Ctrl + K",
+    "searchNoResults": "No tools matched your search."
+  },
+  "home": {
+    "title": "Browser-first utilities for developers and creators",
+    "subtitle": "Fast, privacy-friendly tools that run in your browser. No uploads required.",
+    "cta": "Browse tools",
+    "featured": "Featured tools",
+    "localOnly": "All processing happens locally in your browser.",
+    "categoriesTitle": "Browse by category",
+    "categoriesSubtitle": "Pick a workflow and stay in the browser."
+  },
+  "tools": {
+    "base64": {
+      "name": "Base64 Converter",
+      "description": "Encode and decode text locally in your browser."
+    },
+    "json-formatter": {
+      "name": "JSON Formatter & Validator",
+      "description": "Validate and pretty-print JSON without leaving the browser."
+    },
+    "regex-playground": {
+      "name": "Regex Playground",
+      "description": "Test JavaScript regular expressions with inline highlighting."
+    },
+    "case-converter": {
+      "name": "Case Converter",
+      "description": "Convert text between upper, lower, camelCase, and snake_case."
+    },
+    "diff-checker": {
+      "name": "Diff Checker",
+      "description": "Compare two texts and highlight differences."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Generate placeholder text on the fly."
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "Preview Markdown with GitHub-flavored markdown support."
+    },
+    "password-generator": {
+      "name": "Password Generator",
+      "description": "Generate strong local passwords with custom length and symbols."
+    },
+    "uuid-generator": {
+      "name": "UUID Generator",
+      "description": "Create UUID v4 strings with Web Crypto in your browser."
+    },
+    "hash-generator": {
+      "name": "Hash Generator",
+      "description": "Compute MD5, SHA-256, and SHA-512 locally in your browser."
+    },
+    "jwt-inspector": {
+      "name": "JWT Inspector",
+      "description": "Decode headers and payloads locally with quick expiration hints."
+    },
+    "qr-generator": {
+      "name": "QR Code Generator",
+      "description": "Create QR codes locally from text or URLs."
+    },
+    "exif-viewer": {
+      "name": "EXIF Viewer",
+      "description": "Inspect photo metadata (camera, time) in your browser."
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "Convert between HEX and RGB on the fly."
+    },
+    "color-contrast-checker": {
+      "name": "Color Contrast Checker",
+      "description": "Evaluate WCAG contrast ratios with live previews."
+    },
+    "image-to-pdf": {
+      "name": "Image to PDF",
+      "description": "Reorder images and export them as a single PDF."
+    },
+    "list-dedup-sort": {
+      "name": "List Deduplicator & Sorter",
+      "description": "Remove duplicates with optional ascending or descending order."
+    },
+    "csv-json-converter": {
+      "name": "CSV ↔ JSON Converter",
+      "description": "Flip data between CSV and JSON using PapaParse."
+    },
+    "random-picker": {
+      "name": "Random Picker & Groups",
+      "description": "Draw winners or split names into random teams."
+    },
+    "image-compressor": {
+      "name": "Image Compressor",
+      "description": "Compress images via Canvas/Web Workers without uploads."
+    },
+    "image-converter": {
+      "name": "Image Format Converter",
+      "description": "Turn JPG/PNG/WebP files into another format instantly."
+    },
+    "social-mockup": {
+      "name": "Social Media Mockup",
+      "description": "Generate Tweet/Instagram style cards and download screenshots."
+    },
+    "palette-generator": {
+      "name": "Palette & Gradient Generator",
+      "description": "Generate random palettes and CSS gradients with one click."
+    },
+    "svg-recolor": {
+      "name": "SVG Recolor",
+      "description": "Upload an SVG icon and recolor fills/strokes client-side."
+    },
+    "emoji-cleaner": {
+      "name": "Emoji Cleaner",
+      "description": "Remove or extract emojis from any text block."
+    },
+    "social-formatter": {
+      "name": "Social Caption Formatter",
+      "description": "Add spacing, bullets, and emoji flourishes for IG/Xiaohongshu posts."
+    },
+    "advanced-word-count": {
+      "name": "Advanced Word Count",
+      "description": "Track characters, sentences, and paragraphs in real time."
+    },
+    "date-calculator": {
+      "name": "Date Calculator",
+      "description": "Measure the distance between two dates in days, weeks, and months."
+    },
+    "timezone-meeting-planner": {
+      "name": "Time Zone Meeting Planner",
+      "description": "Pick a base time and preview it across teammates' time zones."
+    },
+    "finance-calculator": {
+      "name": "Compound Interest Planner",
+      "description": "Project savings growth with charts for contributions vs. gains."
+    },
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "description": "Input height/weight to view BMI and a quick health tip."
+    },
+    "unit-converter": {
+      "name": "Unit & Size Converter",
+      "description": "Convert length, weight, shoe size, and clothing charts."
+    },
+    "statistics-summary": {
+      "name": "Statistical Summary",
+      "description": "Paste numbers to get mean, median, variance, and a quick trend line."
+    },
+    "international-temperature-converter": {
+      "name": "International Temperature Unit Converter",
+      "description": "Convert Celsius, Fahrenheit, Kelvin, and Rankine for global workflows."
+    },
+    "family-relation-calculator": {
+      "name": "Family Relation Calculator",
+      "description": "Map Chinese family titles by selecting yourself and the relative steps."
+    },
+    "lunar-new-year-essentials": {
+      "name": "New Year Essentials",
+      "description": "Countdowns, greetings, and prep lists for Lunar New Year gatherings."
+    },
+    "finance-number-case-converter": {
+      "name": "Financial Uppercase Converter",
+      "description": "Turn RMB amounts into uppercase financial text instantly."
+    },
+    "finance-essentials": {
+      "name": "Finance Toolkit",
+      "description": "Handy calculators for invoices, reimbursements, and per-diem splits."
+    },
+    "base-converter": {
+      "name": "Base Converter",
+      "description": "Convert numbers between binary, octal, decimal, and hexadecimal."
+    },
+    "computer-base-converter": {
+      "name": "Computer Base Converter",
+      "description": "Developer-focused radix converter with bit-length hints."
+    },
+    "cron-explainer": {
+      "name": "Cron Explainer",
+      "description": "Parse 5-field cron strings with readable summaries and next runs."
+    },
+    "video-to-gif": {
+      "name": "Video to GIF (WASM)",
+      "description": "Use ffmpeg.wasm to clip and export GIFs entirely in-browser."
+    },
+    "ocr": {
+      "name": "OCR (Tesseract.js)",
+      "description": "Recognize English or Chinese text from an image locally."
+    }
+  },
+  "categories": {
+    "dev": "Developer",
+    "text": "Text",
+    "security": "Security",
+    "media": "Media",
+    "time": "Time",
+    "math": "Math",
+    "productivity": "Office & Productivity",
+    "design": "Design & Media",
+    "social": "Social",
+    "life": "Life & Math",
+    "wasm": "WebAssembly",
+    "conversion": "Data Conversion"
+  },
+  "tags": {
+    "encode": "encode",
+    "decode": "decode",
+    "count": "count",
+    "format": "format",
+    "compare": "compare",
+    "generate": "generate",
+    "markdown": "markdown",
+    "preview": "preview",
+    "random": "random",
+    "password": "password",
+    "hash": "hash",
+    "md5": "md5",
+    "sha": "sha",
+    "qr": "qr",
+    "exif": "exif",
+    "metadata": "metadata",
+    "color": "color",
+    "convert": "convert",
+    "json": "json",
+    "validate": "validate",
+    "uuid": "uuid",
+    "pdf": "pdf",
+    "text": "text",
+    "list": "list",
+    "sort": "sort",
+    "csv": "csv",
+    "team": "team",
+    "image": "image",
+    "compress": "compress",
+    "svg": "svg",
+    "social": "social",
+    "style": "style",
+    "emoji": "emoji",
+    "clean": "clean",
+    "date": "date",
+    "time": "time",
+    "finance": "finance",
+    "chart": "chart",
+    "health": "health",
+    "video": "video",
+    "gif": "gif",
+    "ocr": "ocr",
+    "regex": "regex",
+    "test": "test",
+    "jwt": "jwt",
+    "token": "token",
+    "contrast": "contrast",
+    "wcag": "wcag",
+    "timezone": "timezone",
+    "schedule": "schedule",
+    "stats": "stats",
+    "analysis": "analysis"
+  },
+  "toolShell": {
+    "input": "Input",
+    "output": "Output",
+    "clear": "Clear",
+    "copy": "Copy",
+    "encoded": "Encoded",
+    "decoded": "Decoded",
+    "error": "Something went wrong. Please check your input."
+  },
+  "regexPlayground": {
+    "patternLabel": "Pattern",
+    "patternPlaceholder": "e.g. (hello)+",
+    "flagsLabel": "Flags",
+    "flagsHint": "Toggle JavaScript regex modifiers.",
+    "sampleLabel": "Sample text",
+    "samplePlaceholder": "Paste text to test against your pattern...",
+    "matchesLabel": "Matches",
+    "noMatches": "No matches yet. Add text or adjust your pattern.",
+    "helper": "Runs entirely in your browser—nothing is sent to a server.",
+    "error": "Unable to compile this pattern. Please check the syntax.",
+    "indexLabel": "Index",
+    "groupLabel": "Group",
+    "highlightLabel": "Highlighted text",
+    "flagDescriptions": {
+      "g": "global",
+      "i": "ignore case",
+      "m": "multiline",
+      "s": "dotall",
+      "u": "unicode",
+      "y": "sticky"
+    }
+  },
+  "jwtInspector": {
+    "inputLabel": "JWT token",
+    "placeholder": "Paste a JWT (header.payload.signature)...",
+    "helper": "Decodes locally; signatures are not verified.",
+    "headerTitle": "Header",
+    "payloadTitle": "Payload",
+    "signatureTitle": "Signature",
+    "claimsTitle": "Registered claims",
+    "copyJson": "Copy JSON",
+    "copied": "Copied!",
+    "invalidStructure": "Tokens must include at least two dot-separated segments.",
+    "decodeError": "Unable to decode this token. Check the Base64 contents.",
+    "statusActive": "Active",
+    "statusExpired": "Expired",
+    "expiresIn": "Expires in {duration}",
+    "expiredAgo": "Expired {duration} ago",
+    "noExpiry": "No exp claim provided.",
+    "noClaims": "No standard claims detected.",
+    "signatureMissing": "Signature segment missing. This token is unsecured.",
+    "signaturePresent": "Signature present. Verification not performed.",
+    "issuer": "Issuer (iss)",
+    "subject": "Subject (sub)",
+    "audience": "Audience (aud)",
+    "expires": "Expires (exp)",
+    "issuedAt": "Issued at (iat)",
+    "validFrom": "Valid from (nbf)",
+    "durationUnits": {
+      "days": "d",
+      "hours": "h",
+      "minutes": "m"
+    }
+  },
+  "colorContrast": {
+    "textColor": "Text color",
+    "backgroundColor": "Background color",
+    "swap": "Swap colors",
+    "ratioLabel": "Contrast ratio",
+    "aaNormal": "AA (normal text)",
+    "aaLarge": "AA (large text)",
+    "aaa": "AAA (normal text)",
+    "pass": "Pass",
+    "fail": "Fail",
+    "previewLabel": "Preview",
+    "helper": "WCAG 2.1 calls for 4.5:1 for body text and 3:1 for large text."
+  },
+  "timezonePlanner": {
+    "title": "Time Zone Meeting Planner",
+    "subtitle": "Pick a base time and preview it across teammates' time zones.",
+    "meetingTime": "Meeting Time",
+    "baseTimezone": "Base Timezone",
+    "timezoneHint": "Time is shown in the selected base timezone",
+    "participants": "Participants",
+    "addTimezone": "Add Zone",
+    "removeTimezone": "Remove",
+    "emptyState": "Add a participant timezone to compare working hours.",
+    "timelineLabel": "Timeline",
+    "workingHours": "Working",
+    "offHours": "Off Hours",
+    "base": "BASE",
+    "dstActive": "DST active",
+    "shareLink": "Share Link",
+    "copySummary": "Copy Summary",
+    "copied": "Copied!",
+    "linkCopied": "Link Copied!",
+    "searchPlaceholder": "Search cities...",
+    "noResults": "No cities found. Try a different spelling.",
+    "favorites": "Favorites",
+    "popular": "Popular",
+    "workingHoursStart": "Start",
+    "workingHoursEnd": "End",
+    "workingHoursTo": "to",
+    "overlapFound": "overlap",
+    "dstTitle": "Daylight Saving Time Alert",
+    "dstNextTransition": "Next transition",
+    "dstBeforeTransition": "Before",
+    "dstAfterTransition": "After",
+    "dstTip": "Coordinate with your counterpart before the transition to avoid confusion.",
+    "dstShowDetails": "Show meeting time impact",
+    "dstHideDetails": "Hide details",
+    "xinjiangTooltip": "Xinjiang officially uses Beijing Time (GMT+8), but locals often follow Urumqi Time (GMT+6). This tool uses GMT+6."
+  },
+  "cronExplainer": {
+    "expressionLabel": "Cron expression",
+    "placeholder": "0 9 * * 1-5",
+    "helper": "Standard 5-field format: minute hour day-of-month month day-of-week.",
+    "timezoneLabel": "Timezone",
+    "parseError": "Unable to parse this cron expression.",
+    "fields": {
+      "minute": "Minute",
+      "hour": "Hour",
+      "dayOfMonth": "Day of month",
+      "month": "Month",
+      "dayOfWeek": "Day of week"
+    },
+    "unitNames": {
+      "minute": "minute",
+      "hour": "hour",
+      "dayOfMonth": "day",
+      "month": "month",
+      "dayOfWeek": "weekday"
+    },
+    "months": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    },
+    "weekdays": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    },
+    "descriptions": {
+      "any": "Any {unit}",
+      "value": "{value}",
+      "list": "Includes: {items}",
+      "range": "From {start} to {end}",
+      "rangeStep": "From {start} to {end}, every {step} {unit}",
+      "separator": ", "
+    },
+    "nextRuns": "Next runs",
+    "copySchedule": "Copy schedule",
+    "copied": "Copied!"
+  },
+  "statisticsSummary": {
+    "inputLabel": "Dataset",
+    "placeholder": "Paste numbers separated by commas or new lines...",
+    "invalidCount": "Ignored {count} values that were not numbers.",
+    "metrics": {
+      "count": "Count",
+      "sum": "Sum",
+      "mean": "Mean",
+      "median": "Median",
+      "min": "Min",
+      "max": "Max",
+      "variance": "Variance",
+      "stddev": "Std. deviation"
+    },
+    "empty": "Add at least two numbers to see the full summary.",
+    "chartLabel": "Trend snapshot",
+    "copySummary": "Copy summary",
+    "copied": "Copied!"
+  },
+  "temperatureConverter": {
+    "valueLabel": "Value",
+    "fromLabel": "From",
+    "toLabel": "To",
+    "swapLabel": "Swap units",
+    "resetLabel": "Reset",
+    "invalid": "Enter a numeric temperature to convert.",
+    "allConversions": "All conversions",
+    "units": {
+      "celsius": "Celsius (°C)",
+      "fahrenheit": "Fahrenheit (°F)",
+      "kelvin": "Kelvin (K)",
+      "rankine": "Rankine (°R)"
+    }
+  },
+  "familyRelation": {
+    "stepPlaceholder": "Pick the next relationship step",
+    "addStep": "Add step",
+    "undo": "Undo",
+    "clear": "Clear",
+    "stepsLabel": "Current path",
+    "empty": "Start by adding a relation step.",
+    "resultLabel": "Call them",
+    "unknown": "We don't have that combination yet.",
+    "selfLabel": "You",
+    "resultHint": "Based on the selected steps",
+    "steps": {
+      "father": "Father",
+      "mother": "Mother",
+      "olderBrother": "Older brother",
+      "youngerBrother": "Younger brother",
+      "olderSister": "Older sister",
+      "youngerSister": "Younger sister",
+      "son": "Son",
+      "daughter": "Daughter",
+      "husband": "Husband",
+      "wife": "Wife"
+    },
+    "results": {
+      "father": "Father",
+      "mother": "Mother",
+      "paternalGrandfather": "Paternal grandfather",
+      "paternalGrandmother": "Paternal grandmother",
+      "maternalGrandfather": "Maternal grandfather",
+      "maternalGrandmother": "Maternal grandmother",
+      "paternalUncle": "Paternal uncle",
+      "paternalAunt": "Paternal aunt",
+      "maternalUncle": "Maternal uncle",
+      "maternalAunt": "Maternal aunt",
+      "elderBrother": "Older brother",
+      "youngerBrother": "Younger brother",
+      "elderSister": "Older sister",
+      "youngerSister": "Younger sister",
+      "son": "Son",
+      "daughter": "Daughter",
+      "grandson": "Grandson",
+      "granddaughter": "Granddaughter",
+      "nephew": "Nephew",
+      "niece": "Niece",
+      "fatherInLaw": "Father-in-law",
+      "motherInLaw": "Mother-in-law",
+      "brotherInLaw": "Brother-in-law",
+      "sisterInLaw": "Sister-in-law",
+      "husband": "Husband",
+      "wife": "Wife",
+      "daughterInLaw": "Daughter-in-law",
+      "sonInLaw": "Son-in-law",
+      "cousin": "Cousin"
+    }
+  },
+  "lunarNewYear": {
+    "countdownTitle": "Countdown",
+    "countdown": "{count} days until Lunar New Year",
+    "today": "It's Lunar New Year's Day!",
+    "nextDateLabel": "Next celebration",
+    "greetingTitle": "Greeting generator",
+    "drawGreeting": "New greeting",
+    "greetings": [
+      "Gong xi fa cai!",
+      "Wishing you a prosperous New Year!",
+      "May your family stay joyful and healthy.",
+      "红包拿来—kidding, have an abundant year!",
+      "New year, new luck, new opportunities."
+    ]
+  },
+  "financeNumberCase": {
+    "amountLabel": "Amount (RMB)",
+    "placeholder": "e.g. 1234.56",
+    "convert": "Convert to uppercase",
+    "copy": "Copy result",
+    "copied": "Copied!",
+    "resultLabel": "Uppercase amount",
+    "invalid": "Enter a valid amount up to 999,999,999,999.99."
+  },
+  "financeToolkit": {
+    "tax": {
+      "title": "Invoice tax breakdown",
+      "amount": "Pre-tax amount",
+      "rate": "Tax rate (%)",
+      "taxDue": "Tax due",
+      "total": "Total with tax"
+    },
+    "split": {
+      "title": "Reimbursement & per-diem split",
+      "total": "Total budget",
+      "people": "People",
+      "days": "Days",
+      "perPerson": "Per person",
+      "perDay": "Per day",
+      "perPersonPerDay": "Per person / day",
+      "note": "Values are rounded to 2 decimals."
+    }
+  },
+  "baseConverter": {
+    "inputLabel": "Value",
+    "baseLabel": "Input base",
+    "resultsLabel": "Converted values",
+    "invalid": "Value is not valid for the selected base.",
+    "bases": {
+      "binary": "Binary (base 2)",
+      "octal": "Octal (base 8)",
+      "decimal": "Decimal (base 10)",
+      "hex": "Hex (base 16)"
+    }
+  },
+  "computerBaseConverter": {
+    "inputLabel": "Value",
+    "baseLabel": "Input base",
+    "bitWidthLabel": "Target bit width",
+    "bitLengthLabel": "Bit length",
+    "approxBytesLabel": "Approx. bytes",
+    "paddedBinaryLabel": "Binary (padded)",
+    "paddedHexLabel": "Hex (padded)",
+    "outputsTitle": "Quick conversions",
+    "invalid": "Value is not valid for the selected base.",
+    "bases": {
+      "binary": "Binary",
+      "octal": "Octal",
+      "decimal": "Decimal",
+      "hex": "Hex"
+    }
+  },
+  "base64": {
+    "encode": "Encode",
+    "decode": "Decode",
+    "placeholder": "Paste text here..."
+  },
+  "caseConverter": {
+    "input": "Text",
+    "output": "Converted",
+    "upper": "UPPERCASE",
+    "lower": "lowercase",
+    "camel": "camelCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "title": "Title Case",
+    "copy": "Copy",
+    "reset": "Reset",
+    "placeholder": "Enter text to convert..."
+  },
+  "diffChecker": {
+    "left": "Original",
+    "right": "Changed",
+    "summary": "Summary",
+    "added": "Added",
+    "removed": "Removed",
+    "button": "Compare",
+    "noDiff": "No differences found",
+    "placeholderLeft": "Paste original text...",
+    "placeholderRight": "Paste changed text..."
+  },
+  "loremIpsum": {
+    "paragraphs": "Paragraphs",
+    "words": "Words per paragraph",
+    "generate": "Generate",
+    "copy": "Copy",
+    "placeholder": "Generated text will appear here..."
+  },
+  "markdown": {
+    "input": "Markdown",
+    "preview": "Preview",
+    "placeholder": "Write Markdown here..."
+  },
+  "passwordGenerator": {
+    "length": "Length",
+    "uppercase": "Uppercase",
+    "lowercase": "Lowercase",
+    "numbers": "Numbers",
+    "symbols": "Symbols",
+    "generate": "Generate",
+    "copy": "Copy",
+    "password": "Password",
+    "placeholder": "Generated password will appear here..."
+  },
+  "hashGenerator": {
+    "input": "Text",
+    "algo": "Algorithm",
+    "md5": "MD5",
+    "sha256": "SHA-256",
+    "sha512": "SHA-512",
+    "hash": "Hash",
+    "compute": "Compute",
+    "copy": "Copy",
+    "placeholder": "Output will appear here..."
+  },
+  "qrGenerator": {
+    "input": "Text or URL",
+    "size": "Size",
+    "download": "Download PNG",
+    "placeholder": "Enter text to encode..."
+  },
+  "exifViewer": {
+    "upload": "Upload image",
+    "camera": "Camera",
+    "model": "Model",
+    "datetime": "Captured at",
+    "noData": "No EXIF data found.",
+    "error": "Failed to read EXIF data.",
+    "instruction": "Upload a photo to inspect its metadata."
+  },
+  "colorConverter": {
+    "hex": "Hex",
+    "rgb": "RGB",
+    "copy": "Copy",
+    "placeholderHex": "#3366ff",
+    "placeholderRgb": "51, 102, 255",
+    "invalid": "Invalid color value."
+  },
+  "jsonFormatter": {
+    "input": "JSON Input",
+    "output": "Formatted JSON",
+    "format": "Format",
+    "validate": "Validate",
+    "clear": "Clear",
+    "copy": "Copy",
+    "placeholder": "Paste JSON here...",
+    "error": "Invalid JSON. Please check for trailing commas or missing quotes.",
+    "valid": "Valid JSON"
+  },
+  "uuidGenerator": {
+    "count": "Amount",
+    "countHelper": "Generate between 1 and 20 UUIDs per run.",
+    "generate": "Generate",
+    "copy": "Copy",
+    "error": "Please enter a number between 1 and 20.",
+    "placeholder": "Generated UUIDs will appear here..."
+  },
+  "imageToPdf": {
+    "upload": "Upload images",
+    "helper": "Drop PNG/JPG files or browse",
+    "clear": "Clear list",
+    "generate": "Create PDF",
+    "empty": "Add at least one image to start.",
+    "reorder": "Drag or use buttons to reorder pages.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "remove": "Remove",
+    "processing": "Processing...",
+    "success": "PDF ready—download started.",
+    "error": "Unable to build PDF. Please retry."
+  },
+  "listTool": {
+    "input": "List",
+    "placeholder": "Paste emails or values, one per line...",
+    "result": "Cleaned list",
+    "sortLabel": "Order",
+    "sortAsc": "A → Z",
+    "sortDesc": "Z → A",
+    "original": "Original",
+    "caseSensitive": "Case sensitive",
+    "copy": "Copy",
+    "clear": "Clear"
+  },
+  "csvJson": {
+    "csvInput": "CSV",
+    "jsonOutput": "JSON",
+    "convertToJson": "Convert to JSON",
+    "convertToCsv": "Convert to CSV",
+    "copyCsv": "Copy CSV",
+    "copyJson": "Copy JSON",
+    "placeholder": "Paste data to convert...",
+    "error": "Please enter valid CSV or JSON."
+  },
+  "randomPicker": {
+    "input": "Names",
+    "placeholder": "One participant per line...",
+    "mode": "Mode",
+    "drawMode": "Random draw",
+    "groupMode": "Random groups",
+    "winnersLabel": "Number of winners",
+    "groupSizeLabel": "People per group",
+    "run": "Run",
+    "winnersTitle": "Winners",
+    "groupsTitle": "Groups",
+    "groupLabel": "Group {index}",
+    "copy": "Copy",
+    "clear": "Clear",
+    "error": "Enter at least one name."
+  },
+  "imageCompressor": {
+    "upload": "Upload image",
+    "helper": "Drop a photo or click to browse",
+    "quality": "Quality",
+    "compress": "Compress",
+    "original": "Original",
+    "compressed": "Compressed",
+    "download": "Download",
+    "ratio": "Compressed to {ratio} of original",
+    "processing": "Working...",
+    "error": "Compression failed."
+  },
+  "imageConverter": {
+    "upload": "Upload image",
+    "helper": "Drop or browse a file",
+    "formatLabel": "Target format",
+    "convert": "Convert",
+    "download": "Download",
+    "processing": "Converting...",
+    "error": "Conversion failed.",
+    "inputLabel": "Input",
+    "outputLabel": "Output"
+  },
+  "socialMockup": {
+    "platform": "Platform",
+    "name": "Display name",
+    "handle": "Handle",
+    "content": "Content",
+    "time": "Timestamp",
+    "download": "Download PNG",
+    "helper": "Fill the fields below, then export the mockup.",
+    "twitter": "Twitter/X",
+    "instagram": "Instagram"
+  },
+  "paletteGenerator": {
+    "palette": "Palette",
+    "gradient": "Gradient preview",
+    "generate": "Generate palette",
+    "copy": "Copy hex",
+    "copied": "Copied!"
+  },
+  "svgRecolor": {
+    "upload": "Upload SVG",
+    "helper": "Drop a black SVG file",
+    "colorLabel": "Tint color",
+    "apply": "Apply",
+    "download": "Download SVG",
+    "preview": "Preview",
+    "error": "Could not recolor this SVG."
+  },
+  "emojiCleaner": {
+    "input": "Text",
+    "placeholder": "Paste text with emoji...",
+    "cleaned": "Text without emoji",
+    "emojis": "Extracted emoji",
+    "copyClean": "Copy text",
+    "copyEmoji": "Copy emoji"
+  },
+  "socialFormatter": {
+    "input": "Caption",
+    "placeholder": "Paste messy text...",
+    "spacing": "Insert blank lines",
+    "bullets": "Add bullets",
+    "emoji": "Prefix emoji",
+    "emojiPlaceholder": "e.g. ✨",
+    "format": "Format",
+    "output": "Formatted caption",
+    "copy": "Copy result"
+  },
+  "advancedWordCount": {
+    "input": "Text",
+    "placeholder": "Paste blog drafts, essays, or captions...",
+    "charsWithSpaces": "Characters (with spaces)",
+    "charsWithoutSpaces": "Characters (no spaces)",
+    "words": "Words",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs"
+  },
+  "dateCalculator": {
+    "start": "Start date",
+    "end": "End date",
+    "days": "Days",
+    "weeks": "Weeks",
+    "months": "Months",
+    "future": "Event is in {days} days",
+    "past": "Event was {days} days ago"
+  },
+  "financeCalculator": {
+    "principal": "Initial amount",
+    "monthly": "Monthly contribution",
+    "rate": "Annual rate (%)",
+    "years": "Years",
+    "totalContributions": "Total contributions",
+    "totalInterest": "Estimated gains",
+    "chartTitle": "Projected balance"
+  },
+  "bmiCalculator": {
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "result": "BMI",
+    "category": "Status",
+    "tips": {
+      "underweight": "Underweight",
+      "normal": "Healthy range",
+      "overweight": "Overweight",
+      "obese": "Obese"
+    }
+  },
+  "unitConverter": {
+    "category": "Category",
+    "categories": {
+      "length": "Length",
+      "weight": "Weight",
+      "shoe": "Shoe size",
+      "clothing": "Clothing"
+    },
+    "value": "Value",
+    "unit": "Unit",
+    "results": "Converted values",
+    "lengthUnits": {
+      "cm": "Centimeter",
+      "m": "Meter",
+      "inch": "Inch",
+      "foot": "Foot"
+    },
+    "weightUnits": {
+      "kg": "Kilogram",
+      "g": "Gram",
+      "lb": "Pound"
+    },
+    "shoe": {
+      "title": "Shoes (EU/US/CN)",
+      "eu": "EU",
+      "us": "US",
+      "cn": "CN"
+    },
+    "clothing": {
+      "title": "Clothing size chart",
+      "international": "INTL",
+      "us": "US",
+      "eu": "EU",
+      "cn": "CN"
+    }
+  },
+  "videoToGif": {
+    "upload": "Upload video",
+    "helper": "Drop MP4/WebM clips (processed locally)",
+    "start": "Start (s)",
+    "duration": "Duration (s)",
+    "width": "Width (px)",
+    "convert": "Convert",
+    "download": "Download GIF",
+    "processing": "Converting via ffmpeg.wasm...",
+    "error": "Conversion failed. Please try a shorter clip."
+  },
+  "ocr": {
+    "upload": "Upload image",
+    "helper": "Drop a screenshot or scan",
+    "language": "Language",
+    "languages": {
+      "eng": "English",
+      "chi_sim": "Simplified Chinese"
+    },
+    "run": "Run OCR",
+    "result": "Recognized text will appear here...",
+    "copy": "Copy text",
+    "processing": "Recognizing text...",
+    "error": "OCR failed.",
+    "preview": "Preview"
+  }
+}

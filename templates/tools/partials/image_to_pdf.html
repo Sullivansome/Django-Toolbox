@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('image-to-pdf')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="file" accept="image/*" multiple @change="onFile($event)" /><p class="text-sm text-destructive" x-show="err" x-text="err"></p><p class="text-sm" x-show="busy">Building PDF…</p></div>
+</div>

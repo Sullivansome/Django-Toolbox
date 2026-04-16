@@ -1,0 +1,565 @@
+{
+  "bmi-calculator": {
+    "slug": "bmi-calculator",
+    "category": "life",
+    "tags": [
+      "health"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "BMI calculator",
+        "body mass index",
+        "calculate BMI",
+        "weight calculator",
+        "health calculator"
+      ]
+    }
+  },
+  "color-contrast-checker": {
+    "slug": "color-contrast-checker",
+    "category": "design",
+    "tags": [
+      "color",
+      "contrast",
+      "wcag"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "color contrast checker",
+        "WCAG contrast checker",
+        "accessibility contrast",
+        "color accessibility",
+        "contrast ratio calculator"
+      ]
+    }
+  },
+  "color-converter": {
+    "slug": "color-converter",
+    "category": "media",
+    "tags": [
+      "color",
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "color converter",
+        "hex to RGB",
+        "RGB to hex",
+        "color code converter",
+        "color picker"
+      ]
+    }
+  },
+  "cron-explainer": {
+    "slug": "cron-explainer",
+    "category": "dev",
+    "tags": [
+      "cron",
+      "schedule"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "cron expression explainer",
+        "cron parser",
+        "cron schedule generator",
+        "crontab generator",
+        "cron syntax"
+      ]
+    }
+  },
+  "date-calculator": {
+    "slug": "date-calculator",
+    "category": "life",
+    "tags": [
+      "date",
+      "time"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "date calculator",
+        "days between dates",
+        "add days to date",
+        "date difference calculator"
+      ]
+    }
+  },
+  "emoji-cleaner": {
+    "slug": "emoji-cleaner",
+    "category": "social",
+    "tags": [
+      "emoji",
+      "clean"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "emoji remover",
+        "remove emojis from text",
+        "emoji cleaner",
+        "strip emojis",
+        "clean text emojis"
+      ]
+    }
+  },
+  "exif-viewer": {
+    "slug": "exif-viewer",
+    "category": "media",
+    "tags": [
+      "exif",
+      "metadata"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "EXIF viewer",
+        "image metadata viewer",
+        "photo metadata",
+        "EXIF data reader",
+        "image information"
+      ]
+    }
+  },
+  "family-relation-calculator": {
+    "slug": "family-relation-calculator",
+    "category": "conversion",
+    "tags": [
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "family relation calculator",
+        "cousin calculator",
+        "relationship calculator",
+        "family tree calculator",
+        "kinship calculator"
+      ]
+    }
+  },
+  "finance-number-case-converter": {
+    "slug": "finance-number-case-converter",
+    "category": "conversion",
+    "tags": [
+      "finance",
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "number to words converter",
+        "check amount converter",
+        "currency to words",
+        "number spelling",
+        "financial number converter"
+      ]
+    }
+  },
+  "hash-generator": {
+    "slug": "hash-generator",
+    "category": "security",
+    "tags": [
+      "hash",
+      "md5",
+      "sha"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "hash generator",
+        "MD5 hash",
+        "SHA256 hash",
+        "generate hash online",
+        "checksum generator"
+      ]
+    }
+  },
+  "image-compressor": {
+    "slug": "image-compressor",
+    "category": "design",
+    "tags": [
+      "image",
+      "compress"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "compress image online",
+        "reduce image size",
+        "image compressor free",
+        "shrink photo",
+        "optimize image"
+      ]
+    }
+  },
+  "image-converter": {
+    "slug": "image-converter",
+    "category": "design",
+    "tags": [
+      "image",
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "image converter",
+        "convert image format",
+        "PNG to JPG",
+        "JPG to PNG",
+        "image format converter",
+        "WebP converter"
+      ]
+    }
+  },
+  "image-to-pdf": {
+    "slug": "image-to-pdf",
+    "category": "productivity",
+    "tags": [
+      "pdf",
+      "image"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "image to PDF",
+        "convert images to PDF",
+        "JPG to PDF",
+        "PNG to PDF",
+        "photo to PDF converter"
+      ]
+    }
+  },
+  "international-temperature-converter": {
+    "slug": "international-temperature-converter",
+    "category": "conversion",
+    "tags": [
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "temperature converter",
+        "Celsius to Fahrenheit",
+        "Fahrenheit to Celsius",
+        "Kelvin converter",
+        "temperature unit converter"
+      ]
+    }
+  },
+  "json-formatter": {
+    "slug": "json-formatter",
+    "category": "dev",
+    "tags": [
+      "json",
+      "format",
+      "validate"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "JSON formatter",
+        "JSON beautifier",
+        "format JSON online",
+        "JSON validator",
+        "pretty print JSON"
+      ]
+    }
+  },
+  "latex-to-image": {
+    "slug": "latex-to-image",
+    "category": "text",
+    "tags": [
+      "latex",
+      "math",
+      "image",
+      "export"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "latex to image",
+        "latex to png",
+        "latex to svg",
+        "math equation image",
+        "katex",
+        "latex renderer",
+        "equation generator"
+      ]
+    }
+  },
+  "lorem-ipsum": {
+    "slug": "lorem-ipsum",
+    "category": "text",
+    "tags": [
+      "generate"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "lorem ipsum generator",
+        "dummy text generator",
+        "placeholder text",
+        "random text generator",
+        "filler text"
+      ]
+    }
+  },
+  "lunar-new-year-essentials": {
+    "slug": "lunar-new-year-essentials",
+    "category": "conversion",
+    "tags": [
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "lunar new year",
+        "Chinese new year tools",
+        "red envelope calculator",
+        "zodiac calculator",
+        "spring festival"
+      ]
+    }
+  },
+  "markdown-preview": {
+    "slug": "markdown-preview",
+    "category": "text",
+    "tags": [
+      "markdown",
+      "preview"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "markdown preview",
+        "markdown editor",
+        "markdown viewer",
+        "preview markdown online",
+        "markdown renderer"
+      ]
+    }
+  },
+  "ocr": {
+    "slug": "ocr",
+    "category": "wasm",
+    "tags": [
+      "ocr",
+      "text"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "OCR online",
+        "image to text",
+        "extract text from image",
+        "optical character recognition",
+        "photo to text"
+      ]
+    }
+  },
+  "palette-generator": {
+    "slug": "palette-generator",
+    "category": "design",
+    "tags": [
+      "color",
+      "generate"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "color palette generator",
+        "color scheme generator",
+        "palette creator",
+        "color combination tool",
+        "design palette maker"
+      ]
+    }
+  },
+  "password-generator": {
+    "slug": "password-generator",
+    "category": "security",
+    "tags": [
+      "random",
+      "password"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "password generator",
+        "strong password",
+        "random password",
+        "secure password generator",
+        "create password"
+      ]
+    }
+  },
+  "qr-generator": {
+    "slug": "qr-generator",
+    "category": "media",
+    "tags": [
+      "qr",
+      "encode"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "QR code generator",
+        "free QR code maker",
+        "create QR code online",
+        "WiFi QR code",
+        "QR code for URL",
+        "scannable QR code"
+      ]
+    }
+  },
+  "random-picker": {
+    "slug": "random-picker",
+    "category": "productivity",
+    "tags": [
+      "random",
+      "team"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "random picker",
+        "random name picker",
+        "wheel spinner",
+        "random selector",
+        "decision wheel",
+        "spin the wheel"
+      ]
+    }
+  },
+  "social-mockup": {
+    "slug": "social-mockup",
+    "category": "design",
+    "tags": [
+      "social",
+      "image"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "social media mockup",
+        "tweet generator",
+        "fake tweet maker",
+        "social post mockup",
+        "Instagram post generator"
+      ]
+    }
+  },
+  "statistics-summary": {
+    "slug": "statistics-summary",
+    "category": "math",
+    "tags": [
+      "stats",
+      "analysis"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "statistics calculator",
+        "mean median mode calculator",
+        "statistical analysis",
+        "data summary tool",
+        "standard deviation calculator"
+      ]
+    }
+  },
+  "svg-recolor": {
+    "slug": "svg-recolor",
+    "category": "design",
+    "tags": [
+      "svg",
+      "color"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "SVG color changer",
+        "recolor SVG",
+        "SVG editor online",
+        "change SVG colors",
+        "SVG color tool"
+      ]
+    }
+  },
+  "timezone-meeting-planner": {
+    "slug": "timezone-meeting-planner",
+    "category": "time",
+    "tags": [
+      "timezone",
+      "schedule"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "timezone meeting planner",
+        "world clock meeting scheduler",
+        "time zone converter",
+        "global meeting time finder",
+        "schedule across timezones"
+      ]
+    }
+  },
+  "unit-converter": {
+    "slug": "unit-converter",
+    "category": "life",
+    "tags": [
+      "convert"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "unit converter",
+        "measurement converter",
+        "metric converter",
+        "length converter",
+        "weight converter",
+        "volume converter"
+      ]
+    }
+  },
+  "uuid-generator": {
+    "slug": "uuid-generator",
+    "category": "dev",
+    "tags": [
+      "uuid",
+      "random",
+      "generate"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "UUID generator",
+        "GUID generator",
+        "random UUID",
+        "generate UUID online",
+        "unique identifier generator"
+      ]
+    }
+  },
+  "video-to-gif": {
+    "slug": "video-to-gif",
+    "category": "wasm",
+    "tags": [
+      "video",
+      "gif"
+    ],
+    "icon": "Wrench",
+    "seo": {
+      "keywords": [
+        "video to GIF converter",
+        "convert video to GIF",
+        "GIF maker",
+        "MP4 to GIF",
+        "create GIF from video"
+      ]
+    }
+  }
+}

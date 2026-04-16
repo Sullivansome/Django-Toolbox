@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('finance-number-case-converter')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="text" class="w-full rounded-lg border px-3 py-2 font-mono" x-model="input" @input="run()" /><div class="font-mono text-sm"><div>Upper: <span x-text="upper"></span></div><div>Lower: <span x-text="lower"></span></div></div></div>
+</div>

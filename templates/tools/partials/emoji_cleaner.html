@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('emoji-cleaner')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><textarea class="min-h-[120px] w-full rounded-lg border p-3" x-model="input"></textarea><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="run()">Strip</button><textarea class="min-h-[120px] w-full rounded-lg border bg-muted/30 p-3" x-model="output" readonly></textarea><button type="button" class="text-sm underline" @click="copy()">Copy</button></div>
+</div>

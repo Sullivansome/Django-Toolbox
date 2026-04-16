@@ -1,0 +1,588 @@
+{
+  "en": {
+    "bmi-calculator": {
+      "name": "BMI Calculator",
+      "description": "Input height/weight to view BMI and a quick health tip."
+    },
+    "color-contrast-checker": {
+      "name": "Color Contrast Checker",
+      "description": "Evaluate WCAG contrast ratios with live previews."
+    },
+    "color-converter": {
+      "name": "Color Converter",
+      "description": "Convert between HEX and RGB on the fly."
+    },
+    "cron-explainer": {
+      "name": "Cron Explainer",
+      "description": "Parse 5-field cron strings with readable summaries and next runs."
+    },
+    "date-calculator": {
+      "name": "Date Calculator",
+      "description": "Measure the distance between two dates in days, weeks, and months."
+    },
+    "emoji-cleaner": {
+      "name": "Emoji Cleaner",
+      "description": "Remove or extract emojis from any text block."
+    },
+    "exif-viewer": {
+      "name": "EXIF Viewer",
+      "description": "Inspect photo metadata (camera, time) in your browser."
+    },
+    "family-relation-calculator": {
+      "name": "Family Relation Calculator",
+      "description": "Map Chinese family titles by selecting yourself and the relative steps."
+    },
+    "finance-number-case-converter": {
+      "name": "Financial Uppercase Converter",
+      "description": "Turn RMB amounts into uppercase financial text instantly."
+    },
+    "hash-generator": {
+      "name": "Hash Generator",
+      "description": "Compute MD5, SHA-256, and SHA-512 locally in your browser."
+    },
+    "image-compressor": {
+      "name": "Image Compressor",
+      "description": "Compress images via Canvas/Web Workers without uploads."
+    },
+    "image-converter": {
+      "name": "Image Format Converter",
+      "description": "Turn JPG/PNG/WebP files into another format instantly."
+    },
+    "image-to-pdf": {
+      "name": "Image to PDF",
+      "description": "Reorder images and export them as a single PDF."
+    },
+    "international-temperature-converter": {
+      "name": "International Temperature Unit Converter",
+      "description": "Convert Celsius, Fahrenheit, Kelvin, and Rankine for global workflows."
+    },
+    "json-formatter": {
+      "name": "JSON Formatter & Validator",
+      "description": "Validate and pretty-print JSON without leaving the browser."
+    },
+    "latex-to-image": {
+      "name": "LaTeX to Image",
+      "description": "Convert LaTeX math equations to PNG/SVG images with live preview.",
+      "input": "LaTeX Input",
+      "preview": "Preview",
+      "placeholder": "Enter LaTeX equation, e.g. \\frac{a}{b}",
+      "examples": "Examples",
+      "textColor": "Text",
+      "bgColor": "Background",
+      "scale": "Scale",
+      "copy": "Copy",
+      "copySuccess": "Copied!",
+      "downloadPng": "PNG",
+      "downloadSvg": "SVG",
+      "history": "History",
+      "clearHistory": "Clear history",
+      "error": "Invalid LaTeX",
+      "darkMode": "Toggle dark preview",
+      "emptyPreview": "Enter a LaTeX equation to preview",
+      "transparent": "Transparent"
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Generator",
+      "description": "Generate placeholder text on the fly."
+    },
+    "lunar-new-year-essentials": {
+      "name": "New Year Essentials",
+      "description": "Countdowns, greetings, and prep lists for Lunar New Year gatherings."
+    },
+    "markdown-preview": {
+      "name": "Markdown Preview",
+      "description": "Preview Markdown with GitHub-flavored markdown support."
+    },
+    "ocr": {
+      "name": "OCR (Tesseract.js)",
+      "description": "Recognize English or Chinese text from an image locally.",
+      "upload": "Upload image",
+      "helper": "Drop a screenshot or scan",
+      "language": "Language",
+      "languages": {
+        "eng": "English",
+        "chi_sim": "Simplified Chinese"
+      },
+      "run": "Run OCR",
+      "result": "Recognized text will appear here...",
+      "copy": "Copy text",
+      "processing": "Recognizing text...",
+      "error": "OCR failed.",
+      "preview": "Preview"
+    },
+    "palette-generator": {
+      "name": "Palette & Gradient Generator",
+      "description": "Generate random palettes and CSS gradients with one click."
+    },
+    "password-generator": {
+      "name": "Password Generator",
+      "description": "Generate strong local passwords with custom length and symbols."
+    },
+    "qr-generator": {
+      "name": "QR Code Generator",
+      "description": "Create QR codes locally from text, URLs, WiFi, Email, SMS, or Phone.",
+      "input": "Content",
+      "size": "Preview Size",
+      "download": "Download QR Code",
+      "placeholder": "Enter URL or text...",
+      "contentType": {
+        "label": "Content Type",
+        "url": "URL",
+        "text": "Text",
+        "wifi": "WiFi",
+        "email": "Email",
+        "sms": "SMS",
+        "phone": "Phone"
+      },
+      "wifi": {
+        "ssid": "Network Name",
+        "ssidPlaceholder": "MyWiFi",
+        "password": "Password",
+        "passwordPlaceholder": "Enter password",
+        "encryption": "Security",
+        "wpa": "WPA/WPA2",
+        "wep": "WEP",
+        "none": "None",
+        "hidden": "Hidden Network"
+      },
+      "email": {
+        "address": "Email Address",
+        "addressPlaceholder": "hello@example.com",
+        "subject": "Subject (optional)",
+        "body": "Message (optional)"
+      },
+      "sms": {
+        "phone": "Phone Number",
+        "phonePlaceholder": "+1 234 567 8900",
+        "message": "Message (optional)"
+      },
+      "phone": {
+        "number": "Phone Number",
+        "placeholder": "+1 234 567 8900"
+      },
+      "url": {
+        "placeholder": "https://example.com"
+      },
+      "text": {
+        "placeholder": "Enter any text..."
+      },
+      "export": {
+        "format": "Format",
+        "size": "Size",
+        "downloading": "Downloading..."
+      },
+      "contrast": {
+        "warning": "Low contrast may affect scanning"
+      },
+      "validation": {
+        "enterValidUrl": "Please enter a valid URL",
+        "enterValidEmail": "Please enter a valid email address",
+        "enterValidPhone": "Please enter a valid phone number",
+        "ssidRequired": "Network name is required",
+        "passwordRequired": "Password is required for secured networks"
+      }
+    },
+    "random-picker": {
+      "name": "Random Picker",
+      "description": "Spin the wheel to pick random winners, numbers, or make quick decisions.",
+      "modes": {
+        "names": "Names",
+        "numbers": "Numbers",
+        "quick": "Quick"
+      },
+      "names": {
+        "input": "Enter names (one per line)",
+        "placeholder": "Alice\nBob\nCharlie\nDiana"
+      },
+      "numbers": {
+        "start": "Start",
+        "end": "End",
+        "pickCount": "Pick count"
+      },
+      "quick": {
+        "yesno": "Yes / No",
+        "coin": "Coin Flip",
+        "d6": "Dice (d6)",
+        "d20": "Dice (d20)"
+      },
+      "wheel": {
+        "spin": "Spin",
+        "spinning": "Spinning...",
+        "noEntries": "Add entries to spin"
+      },
+      "dice": {
+        "roll": "Roll",
+        "rolling": "Rolling..."
+      },
+      "coin": {
+        "flip": "Flip",
+        "flipping": "Flipping...",
+        "heads": "Heads",
+        "tails": "Tails"
+      },
+      "results": {
+        "title": "History",
+        "clear": "Clear",
+        "empty": "No results yet",
+        "copy": "Copy"
+      }
+    },
+    "social-mockup": {
+      "name": "Social Media Mockup",
+      "description": "Generate Tweet/Instagram style cards and download screenshots."
+    },
+    "statistics-summary": {
+      "name": "Statistical Summary",
+      "description": "Paste numbers to get mean, median, variance, and a quick trend line."
+    },
+    "svg-recolor": {
+      "name": "SVG Recolor",
+      "description": "Upload an SVG icon and recolor fills/strokes client-side."
+    },
+    "timezone-meeting-planner": {
+      "name": "Time Zone Meeting Planner",
+      "description": "Pick a base time and preview it across teammates' time zones.",
+      "labels": {
+        "title": "Time Zone Meeting Planner",
+        "subtitle": "Pick a base time and preview it across teammates' time zones.",
+        "meetingTime": "Meeting Time",
+        "baseTimezone": "Base Timezone",
+        "timezoneHint": "Time is shown in the selected base timezone",
+        "participants": "Participants",
+        "addTimezone": "Add Zone",
+        "removeTimezone": "Remove",
+        "emptyState": "Add a participant timezone to compare working hours.",
+        "timelineLabel": "Timeline",
+        "workingHours": "Working",
+        "offHours": "Off Hours",
+        "base": "BASE",
+        "dstActive": "DST active",
+        "shareLink": "Share Link",
+        "copySummary": "Copy Summary",
+        "copied": "Copied!",
+        "linkCopied": "Link Copied!",
+        "searchPlaceholder": "Search cities...",
+        "noResults": "No cities found. Try a different spelling.",
+        "favorites": "Favorites",
+        "popular": "Popular",
+        "workingHoursStart": "Start",
+        "workingHoursEnd": "End",
+        "workingHoursTo": "to",
+        "overlapFound": "overlap",
+        "dstTitle": "Daylight Saving Time Alert",
+        "dstNextTransition": "Next transition",
+        "dstBeforeTransition": "Before",
+        "dstAfterTransition": "After",
+        "dstTip": "Coordinate with your counterpart before the transition to avoid confusion.",
+        "dstShowDetails": "Show meeting time impact",
+        "dstHideDetails": "Hide details",
+        "xinjiangTooltip": "Xinjiang officially uses Beijing Time (GMT+8), but locals often follow Urumqi Time (GMT+6). This tool uses GMT+6."
+      }
+    },
+    "unit-converter": {
+      "name": "Unit & Size Converter",
+      "description": "Convert length, weight, shoe size, and clothing charts."
+    },
+    "uuid-generator": {
+      "name": "UUID Generator",
+      "description": "Create UUID v4 strings with Web Crypto in your browser."
+    },
+    "video-to-gif": {
+      "name": "Video to GIF (WASM)",
+      "description": "Use ffmpeg.wasm to clip and export GIFs entirely in-browser."
+    }
+  },
+  "zh": {
+    "bmi-calculator": {
+      "name": "BMI 身体指数",
+      "description": "输入身高体重并获取健康建议。"
+    },
+    "color-contrast-checker": {
+      "name": "颜色对比度检测",
+      "description": "按照 WCAG 标准计算对比度并预览。"
+    },
+    "color-converter": {
+      "name": "颜色转换",
+      "description": "在 HEX 与 RGB 之间快速转换。"
+    },
+    "cron-explainer": {
+      "name": "Cron 解析器",
+      "description": "逐字段解释 5 段 cron 表达式并预览下次执行。"
+    },
+    "date-calculator": {
+      "name": "日期计算器",
+      "description": "计算两日期之间的天数、周数、月数。"
+    },
+    "emoji-cleaner": {
+      "name": "Emoji 清理/提取",
+      "description": "快速删除或提取文本中的表情。"
+    },
+    "exif-viewer": {
+      "name": "EXIF 查看器",
+      "description": "查看照片的元数据（拍摄时间、相机型号）。"
+    },
+    "family-relation-calculator": {
+      "name": "亲戚关系计算器",
+      "description": "选择自己的身份与称呼，一键推导亲戚关系。"
+    },
+    "finance-number-case-converter": {
+      "name": "财务数字大小写转换",
+      "description": "将金额数字转换为中文大写金额，适配票据合同。"
+    },
+    "hash-generator": {
+      "name": "哈希生成器",
+      "description": "在浏览器本地计算 MD5、SHA-256、SHA-512。"
+    },
+    "image-compressor": {
+      "name": "图片压缩",
+      "description": "使用 Canvas/Web Worker 本地压缩图片。"
+    },
+    "image-converter": {
+      "name": "图片格式转换",
+      "description": "在 JPG/PNG/WebP 之间快速互转。"
+    },
+    "image-to-pdf": {
+      "name": "图片转 PDF",
+      "description": "调整顺序后将多张图片导出为 PDF。"
+    },
+    "international-temperature-converter": {
+      "name": "国际温度单位转换",
+      "description": "支持摄氏、华氏、开尔文、兰金等国际温标互换。"
+    },
+    "json-formatter": {
+      "name": "JSON 格式化与校验",
+      "description": "在浏览器中验证并美化 JSON。"
+    },
+    "latex-to-image": {
+      "name": "LaTeX 转图片",
+      "description": "将 LaTeX 数学公式转换为 PNG/SVG 图片，支持实时预览。",
+      "input": "LaTeX 输入",
+      "preview": "预览",
+      "placeholder": "输入 LaTeX 公式，例如 \\frac{a}{b}",
+      "examples": "示例",
+      "textColor": "文字",
+      "bgColor": "背景",
+      "scale": "缩放",
+      "copy": "复制",
+      "copySuccess": "已复制!",
+      "downloadPng": "PNG",
+      "downloadSvg": "SVG",
+      "history": "历史",
+      "clearHistory": "清空历史",
+      "error": "无效的 LaTeX",
+      "darkMode": "切换深色预览",
+      "emptyPreview": "输入 LaTeX 公式以预览",
+      "transparent": "透明"
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum 生成器",
+      "description": "即时生成占位文本。"
+    },
+    "lunar-new-year-essentials": {
+      "name": "过年必备神器",
+      "description": "集合倒计时、吉祥话、采买清单等春节小工具。"
+    },
+    "markdown-preview": {
+      "name": "Markdown 预览",
+      "description": "支持 GitHub 风格的 Markdown 预览。"
+    },
+    "ocr": {
+      "name": "本地 OCR（Tesseract.js）",
+      "description": "离线识别英文或中文图片文字。",
+      "upload": "上传图片",
+      "helper": "拖拽截图或扫描文件",
+      "language": "语言",
+      "languages": {
+        "eng": "英文",
+        "chi_sim": "简体中文"
+      },
+      "run": "开始识别",
+      "result": "识别结果将显示在此...",
+      "copy": "复制文本",
+      "processing": "正在识别文字...",
+      "error": "识别失败。",
+      "preview": "图片预览"
+    },
+    "palette-generator": {
+      "name": "调色板/渐变生成器",
+      "description": "一键生成随机色板与 CSS 渐变。"
+    },
+    "password-generator": {
+      "name": "随机密码生成器",
+      "description": "本地生成自定义长度和符号的强密码。"
+    },
+    "qr-generator": {
+      "name": "二维码生成器",
+      "description": "在本地生成文本、链接、WiFi、邮件、短信或电话的二维码。",
+      "input": "内容",
+      "size": "预览尺寸",
+      "download": "下载二维码",
+      "placeholder": "输入链接或文本...",
+      "contentType": {
+        "label": "内容类型",
+        "url": "链接",
+        "text": "文本",
+        "wifi": "WiFi",
+        "email": "邮件",
+        "sms": "短信",
+        "phone": "电话"
+      },
+      "wifi": {
+        "ssid": "网络名称",
+        "ssidPlaceholder": "我的WiFi",
+        "password": "密码",
+        "passwordPlaceholder": "输入密码",
+        "encryption": "安全类型",
+        "wpa": "WPA/WPA2",
+        "wep": "WEP",
+        "none": "无",
+        "hidden": "隐藏网络"
+      },
+      "email": {
+        "address": "邮箱地址",
+        "addressPlaceholder": "hello@example.com",
+        "subject": "主题（可选）",
+        "body": "正文（可选）"
+      },
+      "sms": {
+        "phone": "电话号码",
+        "phonePlaceholder": "+86 123 4567 8900",
+        "message": "短信内容（可选）"
+      },
+      "phone": {
+        "number": "电话号码",
+        "placeholder": "+86 123 4567 8900"
+      },
+      "url": {
+        "placeholder": "https://example.com"
+      },
+      "text": {
+        "placeholder": "输入任意文本..."
+      },
+      "export": {
+        "format": "格式",
+        "size": "尺寸",
+        "downloading": "下载中..."
+      },
+      "contrast": {
+        "warning": "对比度过低可能影响扫码"
+      },
+      "validation": {
+        "enterValidUrl": "请输入有效的链接",
+        "enterValidEmail": "请输入有效的邮箱地址",
+        "enterValidPhone": "请输入有效的电话号码",
+        "ssidRequired": "请输入网络名称",
+        "passwordRequired": "加密网络需要输入密码"
+      }
+    },
+    "random-picker": {
+      "name": "随机抽选",
+      "description": "转动轮盘随机抽取中奖者、数字或快速做决定。",
+      "modes": {
+        "names": "名单",
+        "numbers": "数字",
+        "quick": "快速"
+      },
+      "names": {
+        "input": "输入名单（每行一个）",
+        "placeholder": "张三\n李四\n王五\n赵六"
+      },
+      "numbers": {
+        "start": "起始",
+        "end": "结束",
+        "pickCount": "抽取数量"
+      },
+      "quick": {
+        "yesno": "是 / 否",
+        "coin": "抛硬币",
+        "d6": "骰子 (d6)",
+        "d20": "骰子 (d20)"
+      },
+      "wheel": {
+        "spin": "开始",
+        "spinning": "抽选中...",
+        "noEntries": "添加选项以开始"
+      },
+      "dice": {
+        "roll": "掷骰子",
+        "rolling": "掷骰中..."
+      },
+      "coin": {
+        "flip": "抛硬币",
+        "flipping": "抛掷中...",
+        "heads": "正面",
+        "tails": "反面"
+      },
+      "results": {
+        "title": "历史记录",
+        "clear": "清空",
+        "empty": "暂无结果",
+        "copy": "复制"
+      }
+    },
+    "social-mockup": {
+      "name": "社媒截图生成",
+      "description": "生成 Tweet/Instagram 风格卡片并截图下载。"
+    },
+    "statistics-summary": {
+      "name": "统计汇总",
+      "description": "粘贴数字即可计算均值、中位数、方差与趋势。"
+    },
+    "svg-recolor": {
+      "name": "SVG 上色器",
+      "description": "上传 SVG 图标并本地更改填充/描边颜色。"
+    },
+    "timezone-meeting-planner": {
+      "name": "时区会议规划",
+      "description": "设定基准时间后，快速查看各地对应时间。",
+      "labels": {
+        "title": "时区会议规划",
+        "subtitle": "设定基准时间后，快速查看各地对应时间。",
+        "meetingTime": "会议时间",
+        "baseTimezone": "基准时区",
+        "timezoneHint": "时间以选定的基准时区显示",
+        "participants": "参与者",
+        "addTimezone": "添加时区",
+        "removeTimezone": "移除",
+        "emptyState": "添加参与者时区以比较工作时间。",
+        "timelineLabel": "时间线",
+        "workingHours": "工作",
+        "offHours": "非工作时间",
+        "base": "基准",
+        "dstActive": "夏令时生效中",
+        "shareLink": "分享链接",
+        "copySummary": "复制摘要",
+        "copied": "已复制！",
+        "linkCopied": "链接已复制！",
+        "searchPlaceholder": "搜索城市...",
+        "noResults": "未找到城市，请尝试其他拼写。",
+        "favorites": "收藏",
+        "popular": "热门",
+        "workingHoursStart": "开始",
+        "workingHoursEnd": "结束",
+        "workingHoursTo": "至",
+        "overlapFound": "重叠",
+        "dstTitle": "夏令时提醒",
+        "dstNextTransition": "下次变更",
+        "dstBeforeTransition": "变更前",
+        "dstAfterTransition": "变更后",
+        "dstTip": "请在时间变更前与对方协调，避免混淆。",
+        "dstShowDetails": "显示会议时间影响",
+        "dstHideDetails": "隐藏详情",
+        "xinjiangTooltip": "新疆官方使用北京时间（GMT+8），但当地人常使用乌鲁木齐时间（GMT+6）。本工具使用 GMT+6。"
+      }
+    },
+    "unit-converter": {
+      "name": "单位/尺码换算",
+      "description": "长度、重量以及鞋码、衣服尺码对照表。"
+    },
+    "uuid-generator": {
+      "name": "UUID 生成器",
+      "description": "使用 Web Crypto 本地生成 UUID v4。"
+    },
+    "video-to-gif": {
+      "name": "视频转 GIF（WASM）",
+      "description": "使用 ffmpeg.wasm 在浏览器内裁剪并导出 GIF。"
+    }
+  }
+}

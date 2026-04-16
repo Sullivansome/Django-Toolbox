@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('cron-explainer')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><input type="text" class="w-full rounded-lg border px-3 py-2 font-mono" x-model="expr" /><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="parse()">Explain</button><p class="text-sm" x-text="human"></p></div>
+</div>

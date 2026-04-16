@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('hash-generator')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><textarea class="min-h-[120px] w-full rounded-lg border border-border bg-background p-3 font-mono text-sm" x-model="input" placeholder="Text to hash"></textarea><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" :disabled="busy" @click="run()" x-text="labels.hash || 'Hash'"></button><p class="text-sm text-destructive" x-show="err" x-text="err"></p><div class="space-y-2 font-mono text-xs" x-show="sha256"><div><span class="text-muted-foreground">MD5</span> <span x-text="md5"></span></div><div><span class="text-muted-foreground">SHA-256</span> <span x-text="sha256"></span></div><div><span class="text-muted-foreground">SHA-512</span> <span x-text="sha512"></span></div></div></div>
+</div>

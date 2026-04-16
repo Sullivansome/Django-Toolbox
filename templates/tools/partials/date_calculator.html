@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('date-calculator')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><div class="grid gap-4 md:grid-cols-2"><label class="text-sm">Start <input type="date" class="ml-2 rounded border px-2" x-model="a" /></label><label class="text-sm">End <input type="date" class="ml-2 rounded border px-2" x-model="b" /></label></div><button type="button" class="rounded-lg bg-foreground px-4 py-2 text-sm text-background" @click="diff()">Days between</button><p class="text-lg" x-show="days !== null">Days: <span x-text="days"></span></p></div>
+</div>

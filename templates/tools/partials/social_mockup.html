@@ -1,0 +1,5 @@
+{% load static %}
+{{ labels|json_script:"tool-labels" }}
+<div class="mx-auto max-w-4xl space-y-6" x-data="window.toolFactory('social-mockup')">
+<div class="rounded-xl border border-border bg-card p-6 shadow-sm space-y-4"><div class="grid gap-3 md:grid-cols-2"><label class="text-sm">Name <input class="ml-2 w-full rounded border px-2" x-model="name" @input="render()" /></label><label class="text-sm">Handle <input class="ml-2 w-full rounded border px-2" x-model="handle" @input="render()" /></label></div><textarea class="min-h-[80px] w-full rounded border p-3" x-model="text" @input="render()"></textarea><canvas x-ref="canvas" width="600" height="280" class="w-full max-w-2xl rounded border bg-white" x-init="render()"></canvas></div>
+</div>
