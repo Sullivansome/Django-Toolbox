@@ -45,4 +45,5 @@ cp .env.example .env   # optional for local dev
 | `DJANGO_ALLOWED_HOSTS` | Comma-separated hosts |
 | `PUBLIC_BASE_URL` | Canonical site URL |
 
-See `.env.example` for defaults.
+See `.env.example` for defaults.1
+
