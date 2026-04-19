@@ -24,7 +24,7 @@
   --ring: oklch(0.708 0 0);
 }
 
-.dark {
+[data-theme="dark"] {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -54,4 +54,24 @@ body {
   background: var(--background);
   color: var(--foreground);
   color-scheme: light dark;
+}
+[data-theme="light"] {
+  --background: #dcfce7;
+  --foreground: #14532d;
+  --card: #ffffff;
+  --card-foreground: #14532d;
+  --popover: #ffffff;
+  --popover-foreground: #14532d;
+  --primary: #16a34a;
+  --primary-foreground: #ffffff;
+  --secondary: #bbf7d0;
+  --secondary-foreground: #14532d;
+  --muted: #bbf7d0;
+  --muted-foreground: #166534;
+  --accent: #86efac;
+  --accent-foreground: #14532d;
+  --destructive: #dc2626;
+  --border: #86efac;
+  --input: #e2e8f0;
+  --ring: #16a34a;
 }

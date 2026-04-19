@@ -46,3 +46,4 @@ cp .env.example .env   # optional for local dev
 | `PUBLIC_BASE_URL` | Canonical site URL |
 
 See `.env.example` for defaults.
+
