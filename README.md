@@ -24,13 +24,17 @@ Django app for **tool.brighteng.org** — shared utilities, templates, and stati
 
 **Requirements:** Python **3.12+** and [**uv**](https://docs.astral.sh/uv/getting-started/installation/).
 
-```bash
-cd django-toolbox
-cp .env.example .env   # optional for local dev
-./scripts/dev.sh
-```
+    cd django-toolbox
+    cp .env.example .env   # optional for local dev
 
-`./scripts/dev.sh` runs `uv sync`, migrates, then `runserver` on `127.0.0.1` using the **first free port in 8000–8099**. If your shell has `VIRTUAL_ENV` from another project, either run `unset VIRTUAL_ENV` or use this script (it clears it).
+**Start the dev server:**
+
+| Platform | Command |
+|----------|---------|
+| macOS / Linux | `./scripts/dev.sh` |
+| Windows (PowerShell / CMD) | `.\scripts\dev.bat` |
+
+Both scripts run `uv sync`, migrate, then `runserver` on `127.0.0.1` using the **first free port in 8000–8099**. If your shell has `VIRTUAL_ENV` from another project, the scripts clear it automatically (`unset VIRTUAL_ENV` on Unix; unset variable on Windows).
 
 **Manual equivalent:** `uv sync` → `uv run python manage.py migrate` → `uv run python manage.py runserver …`
 
@@ -46,4 +50,3 @@ cp .env.example .env   # optional for local dev
 | `PUBLIC_BASE_URL` | Canonical site URL |
 
 See `.env.example` for defaults.
-
